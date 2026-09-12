@@ -1,0 +1,19 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+backend/.env
+frontend/.env
+
+# Generated data & models (re-create with fetch_data / train)
+backend/data/raw/*.json
+backend/data/processed/
+backend/artifacts/
+
+# Node
+node_modules/
+frontend/dist/
+
+.DS_Store

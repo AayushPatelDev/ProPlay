@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/*
+ * ProPlay design system — adapted from the Wise DESIGN.md
+ * (github.com/VoltAgent/awesome-design-md/design-md/wise)
+ *
+ * One lime accent on a sage canvas, near-black ink, white cards.
+ * Elevation comes from surface contrast (sage page → white card), not shadows.
+ * 24px radius on cards and buttons; weight 900 for headline numbers.
+ */
+@theme {
+  /* Brand */
+  --color-primary: #9fe870;
+  --color-primary-active: #cdffad;
+  --color-primary-neutral: #c5edab;
+  --color-primary-pale: #e2f6d5;
+
+  /* Text */
+  --color-ink: #0e0f0c;
+  --color-ink-deep: #163300;
+  --color-body: #454745;
+  --color-mute: #868685;
+
+  /* Surfaces */
+  --color-canvas: #ffffff;
+  --color-canvas-soft: #e8ebe6;
+  --color-canvas-sunk: #dde1d9;
+  --color-ink-raised: #1d1f1b;
+
+  /* Semantic */
+  --color-positive: #2ead4b;
+  --color-positive-deep: #054d28;
+  --color-warning: #ffd11a;
+  --color-warning-content: #4a3b1c;
+  --color-negative: #d03238;
+  --color-negative-deep: #a72027;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas-soft text-ink font-sans antialiased;
+    font-feature-settings: "calt";
+  }
+  ::selection {
+    @apply bg-primary text-ink;
+  }
+}
+
+@layer components {
+  /* ---- Cards ---------------------------------------------------------- */
+  .card {
+    @apply rounded-3xl bg-canvas p-6;
+  }
+  .card-sage {
+    @apply rounded-3xl bg-canvas-soft p-6;
+  }
+  .card-dark {
+    @apply rounded-3xl bg-ink p-6 text-canvas;
+  }
+  .card-title {
+    @apply text-base font-semibold tracking-tight text-ink;
+  }
+  .card-subtitle {
+    @apply text-sm text-body;
+  }
+
+  /* ---- Buttons -------------------------------------------------------- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-3xl px-6 py-3 text-base font-semibold whitespace-nowrap
+      transition-colors duration-150 outline-none
+      focus-visible:ring-4 focus-visible:ring-primary/70
+      disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-sm {
+    @apply px-4 py-2 text-sm;
+  }
+  .btn-primary {
+    @apply bg-primary text-ink hover:bg-primary-active active:bg-primary-neutral;
+  }
+  .btn-secondary {
+    @apply bg-canvas-soft text-ink hover:bg-canvas-sunk;
+  }
+  .btn-tertiary {
+    @apply border border-ink bg-canvas text-ink hover:bg-canvas-soft;
+  }
+
+  /* ---- Chips / segmented controls ------------------------------------ */
+  .chip {
+    @apply rounded-full px-3.5 py-1.5 text-sm font-semibold transition-colors outline-none
+      focus-visible:ring-4 focus-visible:ring-primary/70;
+  }
+  .chip-off {
+    @apply bg-canvas-soft text-ink hover:bg-canvas-sunk;
+  }
+  .chip-on {
+    @apply bg-ink text-primary;
+  }
+
+  /* ---- Badges --------------------------------------------------------- */
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold;
+  }
+  .badge-neutral {
+    @apply bg-canvas-soft text-ink;
+  }
+  .badge-brand {
+    @apply bg-ink text-primary;
+  }
+  .badge-positive {
+    @apply bg-primary-pale text-positive-deep;
+  }
+  .badge-negative {
+    @apply bg-negative/10 text-negative-deep;
+  }
+  .badge-warning {
+    @apply bg-warning/30 text-warning-content;
+  }
+
+  /* ---- Inputs --------------------------------------------------------- */
+  .input {
+    @apply w-full rounded-xl border border-ink bg-canvas px-4 py-3 text-base text-ink outline-none transition
+      placeholder:text-mute focus:ring-4 focus:ring-primary/70 disabled:opacity-50;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* ---- Range slider: sage track, ink fill, lime thumb ------------------- */
+.range {
+  --fill: 50%;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, var(--color-ink) var(--fill), var(--color-canvas-soft) var(--fill));
+  cursor: pointer;
+}
+.range:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-primary) 70%, transparent);
+}
+.range::-webkit-slider-thumb {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 9999px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-ink);
+  transition: transform 120ms;
+}
+.range::-webkit-slider-thumb:hover {
+  transform: scale(1.12);
+}
+.range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 9999px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-ink);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "proplay",
+  "private": true,
+  "description": "EPL player market value predictor (FastAPI + scikit-learn + React)",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "data": "cd backend && .venv/bin/python -m app.fetch_data",
+    "data:mock": "cd backend && .venv/bin/python -m app.fetch_data --mock",
+    "train": "cd backend && .venv/bin/python -m app.train",
+    "dev:api": "cd backend && .venv/bin/uvicorn app.main:app --reload --port 8000",
+    "dev:web": "npm --prefix frontend run dev",
+    "dev": "concurrently -k -n api,web -c green,cyan \"npm:dev:api\" \"npm:dev:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
