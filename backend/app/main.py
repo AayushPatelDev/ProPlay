@@ -7,7 +7,6 @@ import json
 from contextlib import asynccontextmanager
 from typing import Literal
 
-import joblib
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,6 +16,7 @@ from pydantic import BaseModel, Field, model_validator
 from . import config
 from .features import BASE_FEATURES, TARGET, build_feature_frame, latest_season_per_player
 from .labels import normalize_name
+from .predictor import LinearValueModel
 
 Position = Literal["Goalkeeper", "Defender", "Midfielder", "Attacker"]
 state: dict = {}
@@ -24,7 +24,7 @@ state: dict = {}
 
 def load_state() -> None:
     state.clear()
-    missing = [p.name for p in (config.MODEL_PATH, config.METRICS_PATH, config.PREDICTIONS_PATH, config.DATASET_PATH)
+    missing = [p.name for p in (config.MODEL_SPEC_PATH, config.METRICS_PATH, config.PREDICTIONS_PATH, config.DATASET_PATH)
                if not p.exists()]
     if missing:
         state["error"] = f"Missing {', '.join(missing)}. Run `python -m app.fetch_data` then `python -m app.train`."
@@ -33,7 +33,7 @@ def load_state() -> None:
     latest = latest_season_per_player(dataset)
     latest["search_key"] = latest["name"].map(normalize_name)
     state.update(
-        model=joblib.load(config.MODEL_PATH),
+        model=LinearValueModel.load(config.MODEL_SPEC_PATH),
         metrics=json.loads(config.METRICS_PATH.read_text()),
         predictions=pd.read_csv(config.PREDICTIONS_PATH),
         dataset=dataset,

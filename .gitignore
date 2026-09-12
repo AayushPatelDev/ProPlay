@@ -7,10 +7,12 @@ __pycache__/
 backend/.env
 frontend/.env
 
-# Generated data & models (re-create with fetch_data / train)
+# Raw API responses stay local; processed data + model.json are committed for deployment
 backend/data/raw/*.json
-backend/data/processed/
-backend/artifacts/
+backend/artifacts/model.joblib
+
+# Vercel
+.vercel/
 
 # Node
 node_modules/

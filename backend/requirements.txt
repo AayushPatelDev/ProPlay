@@ -1,11 +1,9 @@
+# Runtime dependencies for the API server (this is what Vercel installs).
+# Kept slim: predictions are served from artifacts/model.json, so no scikit-learn/scipy.
+# For fetching data and training, install requirements-train.txt instead.
 fastapi>=0.115
 uvicorn[standard]>=0.30
 pydantic>=2.7
 python-dotenv>=1.0
-requests>=2.32
 pandas>=2.2
 numpy>=1.26
-scikit-learn>=1.5
-matplotlib>=3.9
-seaborn>=0.13
-joblib>=1.4

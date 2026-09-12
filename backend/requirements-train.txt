@@ -1,0 +1,7 @@
+# Full local toolchain: API server + data ingestion + model training + plots.
+-r requirements.txt
+requests>=2.32
+scikit-learn>=1.5
+matplotlib>=3.9
+seaborn>=0.13
+joblib>=1.4

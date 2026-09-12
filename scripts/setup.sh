@@ -8,7 +8,7 @@ echo "==> Backend: virtualenv + requirements"
 cd "$ROOT/backend"
 python3 -m venv .venv
 .venv/bin/pip install --upgrade pip
-.venv/bin/pip install -r requirements.txt
+.venv/bin/pip install -r requirements-train.txt
 [ -f .env ] || cp .env.example .env
 
 echo "==> Backend: dataset (API if API_KEY is set, otherwise mock)"

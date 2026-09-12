@@ -38,9 +38,13 @@ DATASET_PATH = PROCESSED_DIR / "player_seasons.csv"
 DATASET_META_PATH = PROCESSED_DIR / "dataset_meta.json"
 MARKET_VALUES_CSV = DATA_DIR / "market_values.csv"
 
-MODEL_PATH = ARTIFACTS_DIR / "model.joblib"
+MODEL_PATH = ARTIFACTS_DIR / "model.joblib"  # full sklearn pipeline (local only)
+MODEL_SPEC_PATH = ARTIFACTS_DIR / "model.json"  # sklearn-free export the API serves
 METRICS_PATH = ARTIFACTS_DIR / "metrics.json"
 PREDICTIONS_PATH = ARTIFACTS_DIR / "predictions.csv"
 
 for _dir in (RAW_DIR, PROCESSED_DIR, PLOTS_DIR):
-    _dir.mkdir(parents=True, exist_ok=True)
+    try:
+        _dir.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        pass  # read-only filesystem (e.g. Vercel functions): serving needs no writes

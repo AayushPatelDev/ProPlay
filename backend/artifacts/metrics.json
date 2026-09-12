@@ -1,0 +1,99 @@
+{
+  "trained_at": "2026-09-12T22:31:19+00:00",
+  "model": "LinearRegression on log(market value)",
+  "base_features": [
+    "goals",
+    "assists",
+    "minutes",
+    "age",
+    "position"
+  ],
+  "model_features": [
+    "goals",
+    "assists",
+    "minutes",
+    "age",
+    "age_sq",
+    "ga_per90",
+    "position"
+  ],
+  "target": "market_value_eur",
+  "currency": "EUR",
+  "data_source": "api-football",
+  "label_source": "synthetic",
+  "seasons": [
+    2023,
+    2024
+  ],
+  "n_rows": 825,
+  "n_players": 572,
+  "n_train": 663,
+  "n_test": 162,
+  "train": {
+    "r2": 0.6727838254410476,
+    "r2_log": 0.7382932035380483,
+    "mae": 5082640.43884453,
+    "rmse": 8115893.902514976
+  },
+  "test": {
+    "r2": 0.778106998939126,
+    "r2_log": 0.7624991363829571,
+    "mae": 5104584.8672844125,
+    "rmse": 7679035.803769098
+  },
+  "cv": {
+    "folds": 5,
+    "r2": 0.6928626815923571,
+    "r2_log": 0.7382343984844613,
+    "mae": 5154902.330762926,
+    "rmse": 8118477.808747908
+  },
+  "intercept_log": 15.635566772517425,
+  "coefficients": [
+    {
+      "feature": "goals",
+      "coef_log": 0.14202475274847579,
+      "effect_pct": 15.260517832997934
+    },
+    {
+      "feature": "assists",
+      "coef_log": 0.07416931802374002,
+      "effect_pct": 7.698914373261556
+    },
+    {
+      "feature": "minutes",
+      "coef_log": 0.31577055165206863,
+      "effect_pct": 37.131557343295185
+    },
+    {
+      "feature": "age",
+      "coef_log": -0.07215148194343264,
+      "effect_pct": -6.96100521415114
+    },
+    {
+      "feature": "age_sq",
+      "coef_log": -0.24964088375646576,
+      "effect_pct": -22.09194866920874
+    },
+    {
+      "feature": "ga_per90",
+      "coef_log": 0.03632905746032448,
+      "effect_pct": 3.6997021961088894
+    },
+    {
+      "feature": "position_Defender",
+      "coef_log": 0.5669953737455516,
+      "effect_pct": 76.2962043600066
+    },
+    {
+      "feature": "position_Midfielder",
+      "coef_log": 0.7860579426155676,
+      "effect_pct": 119.47276088168657
+    },
+    {
+      "feature": "position_Attacker",
+      "coef_log": 0.9973419835306578,
+      "effect_pct": 171.10661844891828
+    }
+  ]
+}

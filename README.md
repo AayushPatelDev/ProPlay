@@ -63,8 +63,8 @@ Without an API key, setup uses the **mock dataset**, so everything works offline
 cd ~/Desktop/ProPlay/backend
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env        # then edit .env and set API_KEY
+pip install -r requirements-train.txt   # API + data fetching + training
+cp .env.example .env                    # then edit .env and set API_KEY
 ```
 
 ### 2. Get data
@@ -124,6 +124,29 @@ npm run dev
 Or run both at once from the repo root: `npm install && npm run dev`.
 
 After re-training, either restart the API or run `curl -X POST localhost:8000/api/reload`.
+
+## Deploy to Vercel
+
+The repo deploys as **one Vercel project** using [Services](https://vercel.com/docs/services), configured in `vercel.json`:
+
+| Service | Root | What it is | Routes |
+|---|---|---|---|
+| `web` | `frontend/` | Vite build, served from the CDN | everything else |
+| `api` | `backend/` | FastAPI (`app.main:app`) as a Python function | `/api/*`, `/plots/*` |
+
+Steps:
+
+1. Push to GitHub.
+2. In Vercel, go to **Add New → Project**, import the repo, and keep the root directory as the repo root. Vercel reads `vercel.json`.
+3. Deploy. No environment variables are needed. The API serves the committed model and data and never calls API-Football.
+
+How it stays under Vercel's 500 MB Python function limit:
+
+- `backend/requirements.txt` has only the runtime dependencies (FastAPI, pandas, numpy). Training tools (scikit-learn, matplotlib, etc.) live in `requirements-train.txt`.
+- `train.py` exports the fitted pipeline to `artifacts/model.json`: scaler statistics, one-hot columns, coefficients and intercept. `predictor.py` serves predictions from that file with numpy. Training fails if the export doesn't reproduce scikit-learn's predictions exactly.
+- The processed dataset, `model.json`, metrics, predictions and plots are committed. Raw API responses and `.env` are not.
+
+To update the live model: fetch data and retrain locally, commit `backend/data/processed/` and `backend/artifacts/`, then push. Vercel redeploys automatically.
 
 ## Market value labels (important)
 

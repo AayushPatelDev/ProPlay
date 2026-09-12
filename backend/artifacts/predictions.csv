@@ -1,0 +1,826 @@
+player_id,name,team,season,position,age,goals,assists,minutes,actual,predicted,split
+5,M. Akanji,Manchester City,2023,Defender,28,2,0,2514,14400000.0,15677361.0,train
+14,M. Dahoud,Brighton,2023,Midfielder,27,0,1,454,6200000.0,10183070.0,train
+22,J. Bruun Larsen,Burnley,2023,Attacker,24,6,0,1251,25300000.0,19931899.0,train
+44,Rodri,Manchester City,2023,Midfielder,27,8,9,2938,18500000.0,39964475.0,train
+49,T. Partey,Arsenal,2023,Midfielder,30,0,0,788,10000000.0,8576647.0,train
+83,A. Danjuma,Everton,2023,Attacker,26,1,0,595,7200000.0,13535108.0,test
+95,B. Badiashile,Chelsea,2023,Defender,22,0,1,1337,6800000.0,10042788.0,train
+104,Carlos Vinícius,Fulham,2023,Attacker,28,2,0,320,12900000.0,12960735.0,train
+130,Nélson Semedo,Wolves,2023,Defender,29,0,1,3093,19000000.0,16043126.0,test
+164,B. Davies,Tottenham,2023,Defender,30,1,0,1093,11300000.0,7825695.0,train
+169,K. Trippier,Newcastle,2023,Defender,32,1,10,2239,12200000.0,13378902.0,train
+174,C. Eriksen,Manchester United,2023,Midfielder,31,1,2,1160,10600000.0,9986743.0,train
+175,E. Dier,Tottenham,2023,Defender,29,0,0,199,3600000.0,6303423.0,train
+180,O. Skipp,Tottenham,2023,Midfielder,22,0,0,695,10100000.0,9618399.0,train
+186,Son Heung-Min,Tottenham,2023,Attacker,31,17,10,2948,54700000.0,53004970.0,train
+207,I. Perišić,Tottenham,2023,Attacker,34,0,1,98,3300000.0,5402272.0,train
+247,C. Gakpo,Liverpool,2023,Attacker,24,8,5,1652,45800000.0,30642461.0,train
+253,A. Areola,West Ham,2023,Goalkeeper,30,0,0,2702,8000000.0,7344225.0,train
+269,C. Nkunku,Chelsea,2023,Attacker,25,3,0,435,13700000.0,14221409.0,train
+280,Alisson Becker,Liverpool,2023,Goalkeeper,30,0,0,2520,7100000.0,7059959.0,train
+281,C. Kelleher,Liverpool,2023,Goalkeeper,24,0,0,900,5500000.0,4945936.0,train
+283,T. Alexander-Arnold,Liverpool,2023,Defender,24,3,4,2161,18700000.0,17318387.0,train
+284,J. Gomez,Liverpool,2023,Defender,26,0,1,1777,25600000.0,12169649.0,train
+286,J. Matip,Liverpool,2023,Defender,31,0,0,783,5700000.0,6302518.0,test
+289,A. Robertson,Liverpool,2023,Defender,29,3,2,1691,12000000.0,12722581.0,test
+290,V. van Dijk,Liverpool,2023,Defender,32,2,2,3178,14700000.0,13371500.0,train
+293,C. Jones,Liverpool,2023,Midfielder,22,1,1,1165,13300000.0,12299827.0,train
+295,A. Lallana,Brighton,2023,Midfielder,35,0,1,850,3800000.0,4329925.0,train
+296,J. Milner,Brighton,2023,Midfielder,37,0,2,778,2900000.0,2803054.0,train
+306,Mohamed Salah,Liverpool,2023,Attacker,31,18,10,2535,81800000.0,50107999.0,train
+537,J. Veltman,Brighton,2023,Defender,31,1,1,1591,9200000.0,8668315.0,train
+542,R. Gravenberch,Liverpool,2023,Midfielder,21,1,0,1138,12100000.0,10852714.0,train
+557,O. Vlachodimos,Newcastle,2023,Goalkeeper,29,0,0,450,2000000.0,3843423.0,train
+567,Rúben Dias,Manchester City,2023,Defender,26,0,0,2557,17300000.0,15447825.0,train
+616,A. Murić,Burnley,2023,Goalkeeper,24,0,0,900,5100000.0,5051509.0,train
+617,Ederson,Manchester City,2023,Goalkeeper,29,0,0,2788,7300000.0,8112760.0,train
+626,J. Stones,Manchester City,2023,Defender,29,1,0,1064,15800000.0,8473814.0,train
+627,K. Walker,Manchester City,2023,Defender,33,0,4,2767,4200000.0,10359889.0,train
+629,K. De Bruyne,Manchester City,2023,Midfielder,32,4,10,1235,21300000.0,14284613.0,train
+631,P. Foden,Manchester City,2023,Midfielder,23,19,8,2874,29500000.0,56993441.0,train
+636,Bernardo Silva,Manchester City,2023,Midfielder,28,6,9,2581,43800000.0,30198829.0,train
+641,O. Zinchenko,Arsenal,2023,Defender,26,1,2,1730,10800000.0,13164299.0,train
+643,Gabriel Jesus,Arsenal,2023,Attacker,26,4,5,1481,20900000.0,24071577.0,train
+657,K. Tete,Fulham,2023,Defender,27,1,0,891,14900000.0,9410742.0,train
+665,M. Cornet,West Ham,2023,Attacker,26,1,0,128,8600000.0,12922178.0,train
+697,M. Solomon,Tottenham,2023,Attacker,24,0,2,198,14200000.0,12844448.0,test
+723,Joelinton,Newcastle,2023,Midfielder,26,2,1,1282,12000000.0,14753324.0,train
+727,R. Nelson,Arsenal,2023,Attacker,23,0,0,276,6600000.0,11084657.0,train
+739,Reguilón,Manchester United,2023,Defender,26,0,4,410,8700000.0,10103320.0,train
+742,R. Varane,Manchester United,2023,Defender,30,1,0,1373,12600000.0,8685590.0,train
+792,J. Kluivert,Bournemouth,2023,Attacker,24,7,1,1942,31200000.0,27342233.0,train
+863,R. Bentancur,Tottenham,2023,Midfielder,26,1,1,1007,9100000.0,12918056.0,train
+891,L. Shaw,Manchester United,2023,Defender,28,0,0,962,12200000.0,8597156.0,train
+894,A. Young,Everton,2023,Defender,38,0,0,2289,2200000.0,2630657.0,train
+895,J. Garner,Everton,2023,Midfielder,22,1,2,3006,22900000.0,21602586.0,train
+899,Andreas Pereira,Fulham,2023,Midfielder,27,3,7,2638,29400000.0,26732524.0,train
+903,S. McTominay,Manchester United,2023,Midfielder,26,7,1,1919,27600000.0,22472713.0,test
+908,A. Martial,Manchester United,2023,Attacker,27,1,0,445,10200000.0,12581711.0,train
+909,M. Rashford,Manchester United,2023,Attacker,25,7,2,2278,40400000.0,30963312.0,test
+912,Neto,Bournemouth,2023,Goalkeeper,34,0,0,2880,3200000.0,4414616.0,train
+978,K. Havertz,Arsenal,2023,Attacker,24,13,7,2639,67400000.0,52475135.0,train
+1096,D. Szoboszlai,Liverpool,2023,Midfielder,22,3,2,2108,24900000.0,17870633.0,test
+1100,E. Haaland,Manchester City,2023,Attacker,23,27,5,2556,71000000.0,83432115.0,test
+1125,R. Christie,Bournemouth,2023,Midfielder,28,0,5,2918,12100000.0,24322657.0,test
+1135,O. Édouard,Crystal Palace,2023,Attacker,25,7,0,1554,21500000.0,24153171.0,test
+1145,I. Konaté,Liverpool,2023,Defender,24,0,0,1586,16100000.0,11558523.0,test
+1150,T. Adams,Bournemouth,2023,Midfielder,24,0,0,118,7700000.0,8700827.0,test
+1161,E. Smith Rowe,Arsenal,2023,Midfielder,23,0,1,346,6600000.0,9483905.0,train
+1165,Matheus Cunha,Manchester United,2023,Attacker,24,12,7,2453,69400000.0,47817567.0,test
+1166,T. Werner,Tottenham,2023,Attacker,27,2,3,815,10500000.0,17059416.0,train
+1231,V. Coufal,West Ham,2023,Defender,30,0,7,3140,13900000.0,19578814.0,train
+1243,T. Souček,West Ham,2023,Midfielder,28,7,2,2876,22100000.0,27468986.0,train
+1411,H. Delcroix,Burnley,2023,Defender,24,0,0,583,7800000.0,7963942.0,test
+1422,J. Doku,Manchester City,2023,Attacker,21,3,8,1599,17100000.0,22455840.0,train
+1438,B. Leno,Fulham,2023,Goalkeeper,31,0,0,3420,7800000.0,8204415.0,train
+1445,K. Mavropanos,West Ham,2023,Defender,25,1,0,1498,15100000.0,11669467.0,train
+1455,A. Iwobi,Fulham / Everton,2023,Attacker,27,5,0,2342,32000000.0,27249202.0,train
+1460,B. Saka,Arsenal,2023,Attacker,21,16,8,2933,41800000.0,55479781.0,train
+1463,J. Willock,Newcastle,2023,Midfielder,23,1,0,419,7500000.0,9756709.0,train
+1468,E. Nketiah,Arsenal,2023,Attacker,24,5,2,1072,18300000.0,19724543.0,train
+1469,D. Welbeck,Brighton,2023,Attacker,32,5,1,1703,19000000.0,14116933.0,train
+1566,Emerson Royal,Tottenham,2023,Defender,24,1,0,1153,12100000.0,10348137.0,train
+1578,G. Lo Celso,Tottenham,2023,Midfielder,27,2,2,495,23000000.0,11884894.0,train
+1590,José Sá,Wolves,2023,Goalkeeper,30,0,1,3038,6100000.0,8600606.0,test
+1600,K. Tsimikas,Liverpool,2023,Defender,27,0,3,676,8000000.0,9505659.0,train
+1646,Lucas Paquetá,West Ham,2023,Midfielder,25,4,6,2638,53900000.0,28433401.0,train
+1697,Pablo Fornals,West Ham,2023,Midfielder,27,0,0,452,15700000.0,9548993.0,test
+1746,J. Worrall,Burnley,2023,Defender,26,0,0,439,14700000.0,7630857.0,train
+1864,Pedro Neto,Wolves,2023,Attacker,23,2,9,1518,26900000.0,24895372.0,train
+1934,S. Berge,Burnley,2023,Midfielder,25,1,2,3005,21000000.0,24520047.0,train
+1946,L. Trossard,Arsenal,2023,Attacker,28,12,1,1647,28600000.0,28368290.0,test
+1972,L. Karius,Newcastle,2023,Goalkeeper,30,0,0,90,1900000.0,3009148.0,test
+2056,Pablo Sarabia,Wolves,2023,Attacker,31,4,7,1757,15700000.0,19926979.0,train
+2061,Bryan Gil,Tottenham,2023,Attacker,22,0,0,202,5400000.0,10242262.0,train
+2165,V. Mykolenko,Everton,2023,Defender,24,2,0,2472,13900000.0,16765739.0,train
+2284,Emerson,West Ham,2023,Defender,28,1,2,3142,21800000.0,18791738.0,train
+2289,Jorginho,Arsenal,2023,Midfielder,31,0,2,914,17200000.0,8556654.0,train
+2291,M. Kovačić,Manchester City,2023,Midfielder,29,1,0,1581,30500000.0,12821152.0,train
+2294,Willian,Fulham,2023,Attacker,34,4,2,2061,11800000.0,11759514.0,train
+2413,Richarlison,Tottenham,2023,Attacker,26,11,4,1510,17400000.0,33617026.0,train
+2467,Lisandro Martínez,Manchester United,2023,Defender,25,0,1,656,7700000.0,8975309.0,train
+2489,L. Díaz,Liverpool,2023,Attacker,26,8,5,2663,34800000.0,40740889.0,train
+2490,J. Lerma,Crystal Palace,2023,Midfielder,28,1,1,2403,22600000.0,18004308.0,train
+2507,M. Almirón,Newcastle,2023,Midfielder,29,3,1,1947,15900000.0,16328890.0,train
+2597,T. Tomiyasu,Arsenal,2023,Defender,24,2,1,1143,12200000.0,11344073.0,train
+2678,Diogo Jota,Liverpool,2023,Attacker,26,10,3,1150,20700000.0,28811775.0,test
+2726,K. Zouma,West Ham,2023,Defender,28,3,0,2840,11000000.0,17408030.0,train
+2729,J. Andersen,Crystal Palace,2023,Defender,27,2,3,3418,23600000.0,24920248.0,train
+2734,P. Billing,Bournemouth,2023,Midfielder,27,2,2,1392,17200000.0,15216939.0,train
+2735,P. Højbjerg,Tottenham,2023,Midfielder,27,0,0,1287,30200000.0,12547553.0,train
+2790,J. Guðmunds­son,Burnley,2023,Attacker,32,1,3,1189,20100000.0,11645663.0,train
+2806,F. Schär,Newcastle,2023,Defender,31,4,1,3054,10500000.0,15351449.0,test
+2823,S. Lukić,Fulham,2023,Midfielder,26,1,0,1134,9000000.0,12866509.0,train
+2855,E. Krafth,Newcastle,2023,Defender,28,0,0,926,8000000.0,8499275.0,train
+2864,A. Isak,Newcastle,2023,Attacker,23,21,2,2265,90300000.0,51546755.0,train
+2869,E. Álvarez,West Ham,2023,Midfielder,25,1,1,2383,13300000.0,19341071.0,test
+2887,R. Jiménez,Fulham,2023,Attacker,32,7,0,1436,28500000.0,14260779.0,train
+2920,T. Castagne,Fulham,2023,Defender,27,1,3,2634,14800000.0,18324968.0,test
+2932,J. Pickford,Everton,2023,Goalkeeper,29,0,0,3420,10300000.0,10312787.0,train
+2933,B. Chilwell,Chelsea,2023,Defender,26,0,1,756,7000000.0,9211385.0,train
+2934,M. Keane,Everton,2023,Defender,30,1,0,435,6400000.0,6641380.0,train
+2935,H. Maguire,Manchester United,2023,Defender,30,2,2,1667,10400000.0,10500448.0,test
+2936,J. Tarkowski,Everton,2023,Defender,30,1,1,3420,14500000.0,17777690.0,train
+2937,D. Rice,Arsenal,2023,Midfielder,24,7,8,3232,26600000.0,41237535.0,test
+2938,J. Ward-Prowse,West Ham,2023,Midfielder,28,7,7,3005,31200000.0,35539711.0,train
+2939,C. Wilson,Newcastle,2023,Attacker,31,9,1,993,11300000.0,17010640.0,train
+2990,I. Gueye,Everton,2023,Midfielder,33,4,0,1895,13400000.0,9783352.0,train
+2997,Ł. Fabiański,West Ham,2023,Goalkeeper,38,0,0,718,1800000.0,865346.0,train
+3339,C. Doucouré,Crystal Palace,2023,Midfielder,23,0,0,921,11600000.0,10937414.0,train
+3428,J. Ayew,Crystal Palace,2023,Attacker,31,4,7,2551,31500000.0,25877628.0,test
+6009,J. Álvarez,Manchester City,2023,Attacker,23,11,8,2657,52600000.0,48503831.0,train
+6610,M. Senesi,Bournemouth,2023,Defender,26,4,5,2268,27400000.0,19613641.0,train
+6716,A. Mac Allister,Liverpool,2023,Midfielder,24,5,5,2611,33900000.0,27719932.0,test
+7600,Igor,Brighton,2023,Defender,25,0,0,1636,16700000.0,11779592.0,train
+7722,S. Kalajdzic,Wolves,2023,Attacker,26,2,0,176,10800000.0,14500740.0,train
+8500,W. Endo,Liverpool,2023,Midfielder,30,1,0,1722,6500000.0,12104390.0,train
+8589,B. Manuel,Burnley,2023,Attacker,26,0,0,133,4200000.0,11062349.0,train
+8661,Vitinho,Burnley,2023,Defender,24,0,2,2323,30100000.0,14915704.0,train
+9971,Antony,Manchester United,2023,Attacker,23,1,1,1322,35900000.0,16983388.0,test
+10135,Bruno Guimarães,Newcastle,2023,Midfielder,25,7,8,3268,39600000.0,41353889.0,train
+10329,João Pedro,Chelsea,2023,Attacker,21,9,3,2045,19400000.0,28028733.0,train
+13736,D. Muñoz,Crystal Palace,2023,Defender,27,0,4,1440,19600000.0,12571134.0,train
+15911,M. Kudus,West Ham,2023,Midfielder,22,8,6,2487,17400000.0,29710307.0,train
+17597,D. O&apos;Shea,Burnley,2023,Defender,24,3,4,2894,18600000.0,22913426.0,train
+17661,J. Branthwaite,Everton,2023,Defender,21,3,0,3117,26400000.0,16555019.0,train
+18742,M. Doherty,Wolves,2023,Defender,31,1,0,1136,7200000.0,7114466.0,train
+18744,M. Kilman,Wolves,2023,Defender,26,2,0,3420,21800000.0,22617791.0,train
+18753,Adama Traoré,Fulham,2023,Attacker,27,2,3,404,12400000.0,16716059.0,train
+18758,S. Coleman,Everton,2023,Defender,34,0,0,662,3300000.0,3810195.0,train
+18765,André Gomes,Everton,2023,Midfielder,30,1,0,503,5400000.0,8390079.0,train
+18766,D. Calvert-Lewin,Everton,2023,Attacker,26,7,2,2185,23000000.0,30488879.0,test
+18772,J. Evans,Manchester United,2023,Defender,35,0,1,1391,3100000.0,4039278.0,train
+18778,H. Barnes,Newcastle,2023,Midfielder,25,5,3,794,33200000.0,16472475.0,train
+18784,J. Maddison,Tottenham,2023,Midfielder,26,4,9,2154,31100000.0,27743998.0,test
+18805,A. Doucouré,Everton,2023,Midfielder,30,7,1,2643,9700000.0,21991551.0,train
+18806,W. Hughes,Crystal Palace,2023,Midfielder,28,0,1,1904,17200000.0,14884140.0,train
+18813,A. Cresswell,West Ham,2023,Defender,33,0,0,431,5000000.0,4090875.0,train
+18814,I. Diop,Fulham,2023,Defender,26,0,0,1426,22700000.0,10938157.0,train
+18817,A. Ogbonna,West Ham,2023,Defender,35,0,0,633,2500000.0,3099763.0,train
+18819,M. Antonio,West Ham,2023,Attacker,33,6,2,1708,11200000.0,13421861.0,train
+18823,B. Johnson,West Ham,2023,Defender,23,0,0,550,10100000.0,7885163.0,train
+18843,J. Schlupp,Crystal Palace,2023,Midfielder,30,2,2,1356,13700000.0,12311204.0,test
+18846,A. Wan-Bissaka,Manchester United,2023,Defender,25,0,2,1782,30800000.0,12705447.0,train
+18847,J. Ward,Crystal Palace,2023,Defender,33,0,1,1981,8800000.0,7038545.0,train
+18853,J. Riedewald,Crystal Palace,2023,Midfielder,26,0,0,229,5000000.0,8929848.0,train
+18860,M. Travers,Everton,2023,Goalkeeper,24,0,0,360,5500000.0,4279304.0,train
+18861,N. Aké,Manchester City,2023,Defender,28,2,2,2052,10000000.0,14304570.0,train
+18862,N. Clyne,Crystal Palace,2023,Defender,32,0,0,1337,6100000.0,6638450.0,train
+18866,C. Mepham,Bournemouth,2023,Defender,25,0,1,614,4600000.0,8905705.0,train
+18869,A. Smith,Bournemouth,2023,Defender,32,0,2,2158,8300000.0,8995086.0,train
+18870,D. Brooks,Bournemouth,2023,Midfielder,26,1,1,272,10000000.0,10455552.0,train
+18872,L. Cook,Bournemouth,2023,Midfielder,26,0,3,2792,17400000.0,23426512.0,train
+18883,D. Solanke,Bournemouth,2023,Attacker,25,19,3,3332,46000000.0,74708206.0,train
+18886,M. Dúbravka,Newcastle,2023,Goalkeeper,34,0,0,1984,8600000.0,3188179.0,test
+18894,J. Lascelles,Newcastle,2023,Defender,29,1,0,1081,6900000.0,8890133.0,train
+18901,S. Longstaff,Newcastle,2023,Midfielder,25,6,2,2748,18000000.0,27384962.0,train
+18903,M. Ritchie,Newcastle,2023,Midfielder,33,1,0,116,3900000.0,5560304.0,test
+18911,N. Pope,Newcastle,2023,Goalkeeper,31,0,0,1346,3600000.0,4245619.0,test
+18918,C. Taylor,Burnley,2023,Defender,29,1,1,2330,21100000.0,13723273.0,train
+18929,D. McNeil,Everton,2023,Attacker,23,3,6,2897,52700000.0,34804838.0,test
+18947,M. Lemina,Wolves,2023,Midfielder,29,4,1,2975,18300000.0,23980787.0,test
+18948,N. Redmond,Burnley,2023,Midfielder,29,0,0,145,5800000.0,7705996.0,train
+18955,D. Ings,West Ham,2023,Attacker,31,1,0,389,11500000.0,9303106.0,train
+18959,Robert Sánchez,Chelsea,2023,Goalkeeper,25,0,0,1434,8600000.0,6204318.0,train
+18960,J. Steele,Brighton,2023,Goalkeeper,32,0,0,1530,5100000.0,3896827.0,train
+18961,D. Burn,Newcastle,2023,Defender,31,2,2,2732,18200000.0,13332989.0,train
+18963,L. Dunk,Brighton,2023,Defender,31,3,1,2873,17800000.0,14664524.0,test
+18968,Y. Bissouma,Tottenham,2023,Midfielder,26,0,0,2083,17500000.0,16232641.0,train
+18970,P. Groß,Brighton,2023,Midfielder,32,4,10,3114,36900000.0,23008178.0,train
+18973,S. March,Brighton,2023,Midfielder,29,3,1,558,17400000.0,10670695.0,train
+19004,B. De Cordova-Reid,Fulham,2023,Attacker,30,6,2,1424,11000000.0,18094414.0,train
+19023,T. Ream,Fulham,2023,Defender,35,1,0,1505,3400000.0,4316657.0,train
+19025,T. Cairney,Fulham,2023,Midfielder,32,1,4,1500,21000000.0,10273148.0,train
+19035,H. Elliott,Liverpool,2023,Midfielder,20,3,6,1337,18800000.0,14167690.0,test
+19070,M. Aarons,Bournemouth,2023,Defender,23,0,1,1249,11000000.0,10295880.0,train
+19073,B. Godfrey,Everton,2023,Defender,25,0,0,1129,21800000.0,9690115.0,test
+19088,D. Henderson,Crystal Palace,2023,Goalkeeper,26,0,0,1620,8900000.0,6536317.0,train
+19128,J. Harrison,Everton,2023,Attacker,26,3,3,2218,51300000.0,26479381.0,train
+19130,K. Phillips,Manchester City / West Ham,2023,Midfielder,27,0,0,396,10500000.0,9378443.0,train
+19143,S. Johnstone,Crystal Palace,2023,Goalkeeper,30,0,0,1797,4000000.0,5321504.0,train
+19145,T. Adarabioyo,Fulham,2023,Defender,25,2,0,1616,12500000.0,12292867.0,test
+19147,C. Dawson,Wolves,2023,Defender,33,1,1,2211,8100000.0,7844394.0,train
+19163,J. Murphy,Newcastle,2023,Midfielder,28,3,7,1193,16200000.0,17917154.0,test
+19169,J. Rodríguez,Burnley,2023,Attacker,34,2,1,811,4500000.0,7128289.0,train
+19187,J. Grealish,Manchester City,2023,Midfielder,27,3,1,1021,13200000.0,14081194.0,train
+19192,J. Ramsey,Newcastle,2023,Midfielder,22,1,1,856,13400000.0,11144754.0,test
+19220,M. Mount,Manchester United,2023,Midfielder,24,1,0,541,11000000.0,10545499.0,train
+19221,H. Wilson,Fulham,2023,Attacker,26,4,6,1622,32100000.0,25919285.0,train
+19245,M. Tavernier,Bournemouth,2023,Midfielder,24,3,4,2129,16600000.0,22203659.0,train
+19263,L. Kelly,Bournemouth,2023,Defender,24,0,1,1558,17200000.0,11603105.0,test
+19265,A. Webster,Brighton,2023,Defender,28,0,0,1143,12600000.0,9330727.0,train
+19268,J. Brownhill,Burnley,2023,Midfielder,27,4,2,2248,9700000.0,21693488.0,train
+19281,A. Semenyo,Bournemouth,2023,Attacker,23,8,2,2120,36500000.0,29581659.0,test
+19331,C. Roberts,Burnley,2023,Defender,27,0,1,819,8300000.0,8736205.0,train
+19341,D. Bentley,Wolves,2023,Goalkeeper,30,0,0,382,3600000.0,3464260.0,train
+19361,S. Benrahma,West Ham,2023,Attacker,27,0,1,616,15000000.0,13208491.0,train
+19364,N. Maupay,Everton,2023,Attacker,26,0,3,112,19500000.0,17995450.0,train
+19428,J. Bowen,West Ham,2023,Attacker,26,16,6,3020,103600000.0,64801004.0,train
+19465,David Raya,Arsenal,2023,Goalkeeper,27,0,0,2880,8400000.0,9806049.0,test
+19480,H. Reed,Fulham,2023,Midfielder,28,0,2,1323,27400000.0,13261553.0,train
+19482,J. Rothwell,Bournemouth,2023,Midfielder,28,0,0,380,11900000.0,8875573.0,train
+19545,R. James,Chelsea,2023,Defender,23,0,2,420,8500000.0,8389464.0,train
+19549,A. Robinson,Fulham,2023,Defender,25,0,6,3270,24500000.0,23126663.0,train
+19586,E. Eze,Crystal Palace,2023,Midfielder,25,11,4,2063,17200000.0,31115566.0,test
+19617,M. Olise,Crystal Palace,2023,Midfielder,21,10,6,1277,31300000.0,21839856.0,train
+19720,T. Chalobah,Chelsea,2023,Defender,24,1,0,950,12800000.0,9732941.0,train
+19804,K. Moore,Bournemouth,2023,Attacker,30,1,0,100,11600000.0,9623706.0,train
+19827,J. Cullen,Burnley,2023,Midfielder,27,2,3,2068,23800000.0,19883092.0,train
+19959,B. White,Arsenal,2023,Defender,25,4,4,2995,18000000.0,24967688.0,train
+20355,A. Ramsdale,Arsenal,2023,Goalkeeper,25,0,0,540,3400000.0,4598693.0,train
+20665,J. Bellegarde,Wolves,2023,Midfielder,25,2,1,964,17700000.0,13082506.0,train
+21138,R. Aït-Nouri,Wolves,2023,Defender,22,2,1,2345,9000000.0,15017760.0,test
+21694,N. Aguerd,West Ham,2023,Defender,27,1,0,1859,7600000.0,12787531.0,train
+22090,W. Saliba,Arsenal,2023,Defender,22,2,1,3420,25600000.0,20699483.0,test
+22224,Gabriel Magalhães,Arsenal,2023,Defender,25,4,0,3044,22700000.0,22184249.0,test
+24888,Hwang Hee-Chan,Wolves,2023,Attacker,27,12,3,2125,37900000.0,37375349.0,train
+25004,S. Ortega,Manchester City,2023,Goalkeeper,30,0,0,632,3800000.0,3756436.0,train
+25628,J. Beyer,Burnley,2023,Defender,23,0,1,1239,5100000.0,10263368.0,train
+25927,J. Mateta,Crystal Palace,2023,Attacker,26,16,5,2284,40600000.0,50500591.0,train
+30435,D. Kulusevski,Tottenham,2023,Midfielder,23,8,3,2767,52100000.0,30799464.0,train
+30765,I. Radu,Bournemouth,2023,Goalkeeper,26,0,0,180,3300000.0,4072916.0,train
+30776,C. Romero,Tottenham,2023,Defender,25,5,0,2793,12600000.0,21201862.0,train
+31146,S. Tonali,Newcastle,2023,Midfielder,23,1,0,439,9600000.0,9887302.0,train
+31354,G. Vicario,Tottenham,2023,Goalkeeper,26,0,0,3420,10100000.0,11709122.0,train
+37127,M. Ødegaard,Arsenal,2023,Midfielder,24,8,10,3104,65300000.0,45919927.0,train
+37161,L. Sinisterra,Bournemouth,2023,Attacker,24,2,2,692,13700000.0,16225477.0,train
+37381,M. Trésor,Burnley,2023,Attacker,24,0,0,412,15400000.0,11929716.0,train
+38695,J. van Hecke,Brighton,2023,Defender,23,0,0,2367,11900000.0,14466266.0,train
+38734,S. Botman,Newcastle,2023,Defender,23,2,2,1385,13200000.0,11804135.0,train
+40911,J. Moder,Brighton,2023,Midfielder,24,0,0,612,8400000.0,10382543.0,test
+41104,João Palhinha,Fulham,2023,Midfielder,28,4,1,2707,21400000.0,22343329.0,train
+41606,Toti Gomes,Wolves,2023,Defender,24,1,3,2778,23800000.0,18556260.0,train
+41621,Matheus Nunes,Wolves / Manchester City,2023,Midfielder,24,0,2,841,10900000.0,11750926.0,train
+41725,Fábio Vieira,Arsenal,2023,Midfielder,23,1,2,292,6400000.0,11114041.0,train
+46731,P. Estupiñán,Brighton,2023,Defender,25,2,3,1246,22000000.0,12707827.0,train
+47380,Marc Cucurella,Chelsea,2023,Defender,25,0,2,1785,21100000.0,13363425.0,train
+47499,E. Ünal,Bournemouth,2023,Attacker,26,2,2,363,12400000.0,16138517.0,train
+47519,Pedro Porro,Tottenham,2023,Defender,23,3,7,3092,23600000.0,26071360.0,train
+47903,H. Ekdal,Burnley,2023,Defender,24,0,0,439,12900000.0,7880183.0,train
+51617,D. Núñez,Liverpool,2023,Attacker,24,11,8,2053,59900000.0,43225462.0,train
+61431,J. Kiwior,Arsenal,2023,Defender,23,1,3,971,6100000.0,10300178.0,train
+63577,M. Mudryk,Chelsea,2023,Midfielder,22,5,2,1586,14200000.0,17344396.0,train
+67971,M. Guéhi,Crystal Palace,2023,Defender,23,0,1,2022,21100000.0,12948174.0,train
+70078,F. Pellistri,Manchester United,2023,Midfielder,21,0,1,165,9000000.0,8116451.0,train
+70747,J. Enciso,Brighton,2023,Midfielder,19,0,2,475,8000000.0,7342326.0,train
+98936,L. Foster,Burnley,2023,Attacker,22,5,3,1920,19400000.0,24176226.0,test
+106835,K. Mitoma,Brighton,2023,Midfielder,26,3,4,1485,16400000.0,18193899.0,test
+116117,M. Caicedo,Chelsea,2023,Midfielder,21,1,3,2874,28500000.0,20483936.0,train
+118307,Đ. Petrović,Chelsea,2023,Goalkeeper,23,0,0,1986,5300000.0,6984916.0,test
+123469,Z. Amdouni,Burnley,2023,Attacker,22,5,1,1999,34900000.0,23241499.0,train
+125743,Beto,Everton,2023,Attacker,25,3,0,973,16300000.0,16215206.0,test
+126949,C. Richards,Crystal Palace,2023,Defender,23,1,1,2097,10700000.0,13875257.0,train
+127769,Gabriel Martinelli,Arsenal,2023,Attacker,22,6,4,2029,20400000.0,27233583.0,train
+129033,J. Gvardiol,Manchester City,2023,Defender,21,4,1,2328,13300000.0,14092131.0,train
+129058,B. Verbruggen,Brighton,2023,Goalkeeper,20,0,0,1890,4100000.0,5536382.0,train
+129169,A. Zaroury,Burnley,2023,Attacker,22,0,0,149,10900000.0,9623424.0,train
+129643,E. Ferguson,Brighton,2023,Attacker,18,6,0,1388,12800000.0,12152197.0,train
+129711,B. Johnson,Tottenham,2023,Attacker,22,5,0,2091,33800000.0,23048408.0,train
+129791,Fábio Silva,Wolves,2023,Attacker,21,0,0,283,27100000.0,9548614.0,test
+130423,B. Gilmour,Brighton,2023,Midfielder,22,0,1,2125,18800000.0,16215610.0,train
+135334,S. Bueno,Wolves,2023,Defender,24,0,0,820,6800000.0,8649895.0,train
+135775,Ansu Fati,Brighton,2023,Attacker,20,2,0,522,10800000.0,10817763.0,train
+136723,N. Madueke,Chelsea,2023,Attacker,21,5,2,1055,12200000.0,17177941.0,train
+138417,N. Patterson,Everton,2023,Defender,21,0,2,996,15600000.0,8675298.0,train
+138787,A. Gordon,Newcastle,2023,Attacker,22,11,10,2900,26800000.0,53083161.0,train
+138815,T. Lamptey,Brighton,2023,Defender,22,0,3,913,8700000.0,9452515.0,train
+138816,I. Maatsen,Chelsea,2023,Defender,21,0,0,199,3900000.0,5955155.0,train
+138822,A. Broja,Fulham / Chelsea,2023,Attacker,21,1,0,534,14100000.0,11236576.0,train
+138908,E. Anderson,Newcastle,2023,Midfielder,20,0,2,1022,9000000.0,9760341.0,train
+138935,C. Chukwuemeka,Chelsea,2023,Midfielder,19,1,1,222,8900000.0,7260854.0,test
+144732,T. Doyle,Wolves,2023,Midfielder,21,0,0,1246,8400000.0,10601310.0,train
+152418,N. Ahamada,Crystal Palace,2023,Midfielder,21,0,0,333,7000000.0,7763190.0,train
+152849,M. van de Ven,Tottenham,2023,Defender,22,3,0,2342,13900000.0,15185675.0,test
+152953,L. Colwill,Chelsea,2023,Defender,20,1,1,1799,12500000.0,9585782.0,train
+152967,C. Bassey,Fulham,2023,Defender,23,1,0,2300,11100000.0,14027192.0,train
+152982,C. Palmer,Manchester City / Chelsea,2023,Midfielder,21,22,22,2628,50900000.0,93652882.0,train
+153425,L. Dobbin,Everton,2023,Attacker,20,1,0,222,5800000.0,9441005.0,train
+153430,A. Elanga,Newcastle,2023,Attacker,21,5,9,2434,27500000.0,32119832.0,train
+157912,B. Traoré,Wolves,2023,Midfielder,21,0,0,805,10500000.0,9213854.0,train
+157997,A. Diallo,Manchester United,2023,Attacker,21,1,1,387,10200000.0,11139987.0,train
+158694,T. Livramento,Newcastle,2023,Defender,20,1,0,1312,12400000.0,7942193.0,train
+158698,J. Quansah,Liverpool,2023,Defender,20,2,0,1189,8300000.0,8286564.0,train
+161671,I. Zabarnyi,Bournemouth,2023,Defender,20,1,0,3330,23400000.0,15941419.0,train
+161907,M. Gusto,Chelsea,2023,Defender,20,0,6,1754,6700000.0,11332215.0,train
+162489,J. Trafford,Burnley,2023,Goalkeeper,20,0,0,2520,5800000.0,6830583.0,train
+162498,R. Drăgușin,Tottenham,2023,Defender,21,0,0,424,6100000.0,6595892.0,train
+162714,A. Onana,Everton,2023,Midfielder,21,2,0,2090,14000000.0,14543371.0,train
+171035,T. Chirewa,Wolves,2023,Attacker,19,0,0,139,7600000.0,7404816.0,train
+179400,M. Estève,Burnley,2023,Defender,21,0,0,1311,8200000.0,8617157.0,train
+180317,C. Bradley,Liverpool,2023,Defender,20,1,3,761,8900000.0,7837873.0,train
+180560,H. Mejbri,Manchester United,2023,Midfielder,20,1,0,129,3600000.0,7588065.0,test
+180731,L. Assignon,Burnley,2023,Defender,23,1,2,1240,14800000.0,11136792.0,test
+182201,T. Mitchell,Crystal Palace,2023,Defender,23,2,3,3208,5900000.0,22515332.0,train
+195103,João Gomes,Wolves,2023,Midfielder,22,2,1,2667,43600000.0,20327423.0,train
+195106,Rodrigo Muniz,Fulham,2023,Attacker,22,9,1,1596,30500000.0,24079742.0,train
+196855,J. Anthony,Bournemouth,2023,Attacker,23,0,0,153,5700000.0,10638534.0,train
+204039,D. Udogie,Tottenham,2023,Defender,20,2,3,2398,16200000.0,12918494.0,train
+206254,M. Kerkez,Bournemouth,2023,Defender,19,0,1,1983,7600000.0,9014214.0,train
+237129,P. Sarr,Tottenham,2023,Midfielder,20,3,3,2085,23800000.0,16077550.0,train
+270508,L. Ugochukwu,Chelsea,2023,Midfielder,19,0,0,294,8300000.0,6285653.0,train
+278079,A. Ramsey,Burnley,2023,Midfielder,20,0,0,524,7900000.0,7432705.0,train
+278133,Oscar Bobb,Manchester City,2023,Midfielder,20,1,1,291,12100000.0,8122573.0,train
+280687,Hugo Bueno,Wolves,2023,Defender,20,0,0,730,5100000.0,6610300.0,train
+283058,N. Jackson,Chelsea,2023,Attacker,22,14,5,2804,36500000.0,48822358.0,train
+284230,R. Lewis,Manchester City,2023,Defender,18,2,0,806,8500000.0,5502912.0,train
+284322,K. Mainoo,Manchester United,2023,Midfielder,18,3,1,1939,11000000.0,11089631.0,train
+284324,A. Garnacho,Manchester United,2023,Attacker,19,7,4,2578,19200000.0,24332242.0,train
+284406,A. Gilchrist,Chelsea,2023,Defender,19,1,0,199,3300000.0,5281684.0,train
+284449,J. Rak-Sakyi,Crystal Palace,2023,Midfielder,20,0,0,140,4000000.0,6723547.0,train
+284492,L. Hall,Newcastle,2023,Defender,18,1,0,777,6900000.0,5435229.0,train
+284797,D. Ouattara,Bournemouth,2023,Attacker,21,1,2,1219,9900000.0,14872670.0,test
+288006,R. Højlund,Manchester United,2023,Attacker,20,10,2,2169,33900000.0,25500902.0,train
+288102,A. Wharton,Crystal Palace,2023,Midfielder,19,0,3,1305,18300000.0,9760889.0,train
+288112,Willy Kambwala Ndengushi,Manchester United,2023,Defender,18,0,0,336,3100000.0,4468156.0,train
+291476,D. Fofana,Burnley,2023,Attacker,20,4,1,901,31700000.0,13836977.0,train
+301771,S. Adingra,Brighton,2023,Attacker,21,6,1,2231,18400000.0,23374669.0,test
+303019,N. Fraser,Wolves,2023,Attacker,18,0,0,180,6500000.0,6257539.0,train
+304320,D. Ozoh,Crystal Palace,2023,Midfielder,18,0,0,147,5300000.0,5051787.0,train
+304853,A. Scott,Bournemouth,2023,Midfielder,19,1,1,1017,15600000.0,8732092.0,train
+305730,J. Hinshelwood,Brighton,2023,Midfielder,18,3,0,869,7200000.0,7538427.0,train
+311157,Matheus França,Crystal Palace,2023,Attacker,19,0,1,238,9700000.0,7958819.0,test
+311334,F. Buonanotte,Brighton,2023,Midfielder,18,3,1,1367,14400000.0,8809399.0,train
+315237,W. Osula,Newcastle,2023,Attacker,19,0,0,804,5500000.0,9427929.0,test
+319572,V. Barco,Brighton,2023,Midfielder,19,0,0,305,6100000.0,6134834.0,test
+323449,A. Al Dakhil,Burnley,2023,Defender,21,1,0,1055,20700000.0,8318563.0,train
+328105,L. Miley,Newcastle,2023,Midfielder,17,1,3,1205,11100000.0,7370165.0,train
+330412,Youssef Chermiti,Everton,2023,Attacker,19,0,0,230,5500000.0,7828461.0,train
+334729,B. Clark,Liverpool,2023,Midfielder,18,0,0,103,1600000.0,5132389.0,train
+336564,W. Odobert,Burnley,2023,Attacker,18,3,2,2118,10800000.0,14659776.0,train
+356041,C. Baleba,Brighton,2023,Midfielder,19,0,0,1362,6100000.0,8993413.0,train
+359603,L. Koleosho,Burnley,2023,Attacker,18,1,1,983,7800000.0,9101244.0,train
+380653,L. Chiwome,Wolves,2023,Attacker,17,0,0,175,6000000.0,5449504.0,test
+5,M. Akanji,Manchester City,2024,Defender,29,0,0,2020,7300000.0,11462594.0,train
+18,J. Sancho,Chelsea,2024,Attacker,24,3,4,1764,36000000.0,24078389.0,test
+49,T. Partey,Arsenal,2024,Midfielder,31,4,2,2798,14400000.0,18441536.0,train
+95,B. Badiashile,Chelsea,2024,Defender,23,0,0,333,8700000.0,7333917.0,train
+130,Nélson Semedo,Wolves,2024,Defender,30,0,4,2891,15800000.0,15416755.0,test
+131,Jorge Cuenca,Fulham,2024,Defender,24,0,0,358,10900000.0,7404218.0,test
+138,J. Todibo,West Ham,2024,Defender,24,0,0,1855,15100000.0,12456595.0,test
+164,B. Davies,Tottenham,2024,Defender,31,0,0,1330,6300000.0,7228568.0,train
+169,K. Trippier,Newcastle,2024,Defender,33,0,3,1310,7700000.0,6317724.0,train
+171,K. Walker-Peters,Southampton,2024,Defender,27,0,2,2922,31200000.0,18004104.0,train
+180,O. Skipp,Leicester,2024,Midfielder,23,0,0,1121,14200000.0,11655796.0,train
+182,H. Winks,Leicester,2024,Midfielder,28,0,2,1539,21200000.0,13540275.0,train
+186,Son Heung-Min,Tottenham,2024,Attacker,32,7,9,2116,27100000.0,23720504.0,train
+247,C. Gakpo,Liverpool,2024,Attacker,25,10,4,1945,33600000.0,35107423.0,train
+249,D. Malen,Aston Villa,2024,Attacker,25,3,0,332,12700000.0,15289823.0,train
+253,A. Areola,West Ham,2024,Goalkeeper,31,0,0,2260,5700000.0,5708289.0,train
+269,C. Nkunku,Chelsea,2024,Attacker,26,3,2,912,19900000.0,17328720.0,train
+280,Alisson Becker,Liverpool,2024,Goalkeeper,31,0,0,2509,12600000.0,6277233.0,train
+281,C. Kelleher,Liverpool,2024,Goalkeeper,25,0,0,900,9400000.0,5021930.0,train
+283,T. Alexander-Arnold,Liverpool,2024,Defender,25,3,6,2377,17800000.0,20255445.0,train
+284,J. Gomez,Liverpool,2024,Defender,27,0,0,518,11900000.0,7610493.0,train
+289,A. Robertson,Liverpool,2024,Defender,30,0,1,2492,10300000.0,12657537.0,test
+290,V. van Dijk,Liverpool,2024,Defender,33,3,1,3330,10200000.0,12111435.0,train
+293,C. Jones,Liverpool,2024,Midfielder,23,3,3,1735,13200000.0,18224269.0,train
+295,A. Lallana,Southampton,2024,Midfielder,36,0,2,357,2100000.0,3294364.0,train
+296,J. Milner,Brighton,2024,Midfielder,38,0,0,173,1600000.0,1653029.0,train
+306,Mohamed Salah,Liverpool,2024,Attacker,32,29,18,3377,82400000.0,116568686.0,train
+532,M. de Ligt,Manchester United,2024,Defender,24,2,0,2128,19600000.0,14094677.0,train
+537,J. Veltman,Brighton,2024,Defender,32,0,0,1699,7500000.0,7188371.0,train
+542,R. Gravenberch,Liverpool,2024,Midfielder,22,0,4,3168,16900000.0,25369986.0,train
+545,N. Mazraoui,Manchester United,2024,Defender,26,0,1,2848,14600000.0,17176686.0,test
+616,A. Murić,Ipswich,2024,Goalkeeper,25,0,0,1620,8300000.0,6428286.0,train
+626,J. Stones,Manchester City,2024,Defender,30,2,0,545,11500000.0,7007540.0,train
+627,K. Walker,Manchester City,2024,Defender,34,0,0,973,3400000.0,4200728.0,train
+629,K. De Bruyne,Manchester City,2024,Midfielder,33,4,7,1715,13400000.0,12033503.0,train
+631,P. Foden,Manchester City,2024,Midfielder,24,7,2,1786,12800000.0,21689773.0,train
+633,İ. Gündoğan,Manchester City,2024,Midfielder,33,1,6,2242,9400000.0,12040413.0,train
+641,O. Zinchenko,Arsenal,2024,Defender,27,0,1,542,5800000.0,8325332.0,train
+643,Gabriel Jesus,Arsenal,2024,Attacker,27,3,0,603,9000000.0,14620143.0,train
+645,R. Sterling,Arsenal,2024,Attacker,29,0,2,496,9500000.0,11518702.0,train
+657,K. Tete,Fulham,2024,Defender,28,0,2,1779,16200000.0,12288887.0,train
+723,Joelinton,Newcastle,2024,Midfielder,27,4,3,2404,21200000.0,23517286.0,train
+727,R. Nelson,Fulham / Arsenal,2024,Attacker,24,1,0,488,10500000.0,12974321.0,train
+739,Reguilón,Tottenham,2024,Defender,27,0,0,194,9700000.0,7048706.0,train
+792,J. Kluivert,Bournemouth,2024,Attacker,25,12,6,2356,38800000.0,45440308.0,train
+863,R. Bentancur,Tottenham,2024,Midfielder,27,2,0,1654,8700000.0,15434761.0,train
+879,S. Mavididi,Leicester,2024,Attacker,26,4,1,1615,12600000.0,21824778.0,train
+889,V. Lindelöf,Aston Villa,2024,Defender,30,0,0,725,3800000.0,6885167.0,train
+891,L. Shaw,Manchester United,2024,Defender,29,0,0,348,7500000.0,6584934.0,train
+894,A. Young,Everton,2024,Defender,39,1,3,1868,2100000.0,1992597.0,train
+895,J. Garner,Everton,2024,Midfielder,23,0,1,1595,17300000.0,13784375.0,train
+899,Andreas Pereira,Fulham,2024,Midfielder,28,2,4,2024,13300000.0,18361387.0,train
+909,M. Rashford,Aston Villa,2024,Attacker,26,2,2,441,10900000.0,14923317.0,test
+912,Neto,Bournemouth,2024,Goalkeeper,35,0,0,180,800000.0,1532343.0,train
+925,Gonçalo Guedes,Wolves,2024,Attacker,27,2,4,1011,11600000.0,19027451.0,test
+930,Carlos Soler,West Ham,2024,Midfielder,27,1,1,1403,12600000.0,13756381.0,test
+978,K. Havertz,Arsenal,2024,Attacker,25,9,3,1875,72100000.0,31410057.0,train
+983,L. Bailey,Aston Villa,2024,Attacker,26,1,2,1151,19500000.0,16820498.0,test
+1096,D. Szoboszlai,Liverpool,2024,Midfielder,23,6,6,2495,35100000.0,27945170.0,test
+1098,P. Daka,Leicester,2024,Attacker,25,1,0,721,26400000.0,14030999.0,test
+1100,E. Haaland,Manchester City,2024,Attacker,24,22,3,2741,95300000.0,69241855.0,test
+1117,K. Tierney,Arsenal,2024,Defender,27,1,0,250,19100000.0,7752316.0,test
+1119,K. Ajer,Brentford,2024,Defender,26,0,0,1460,17300000.0,10699923.0,train
+1125,R. Christie,Bournemouth,2024,Midfielder,29,2,3,2131,14900000.0,17880605.0,test
+1135,O. Édouard,Crystal Palace / Leicester,2024,Attacker,26,0,0,140,12600000.0,10885159.0,test
+1145,I. Konaté,Liverpool,2024,Defender,25,1,2,2565,53400000.0,18093674.0,test
+1150,T. Adams,Bournemouth,2024,Midfielder,25,0,3,1965,30700000.0,17672274.0,test
+1161,E. Smith Rowe,Fulham,2024,Midfielder,24,6,3,2061,15700000.0,22932815.0,train
+1165,Matheus Cunha,Manchester United,2024,Attacker,25,15,6,2600,72500000.0,55319386.0,test
+1166,T. Werner,Tottenham,2024,Attacker,28,0,3,508,8000000.0,13607539.0,train
+1231,V. Coufal,West Ham,2024,Defender,31,0,0,1062,4000000.0,6918015.0,train
+1243,T. Souček,West Ham,2024,Midfielder,29,9,1,2572,35300000.0,24519423.0,train
+1422,J. Doku,Manchester City,2024,Attacker,22,3,6,1532,22700000.0,22127946.0,train
+1438,B. Leno,Fulham,2024,Goalkeeper,32,0,1,3420,5500000.0,7445559.0,train
+1445,K. Mavropanos,West Ham,2024,Defender,26,0,0,2038,16400000.0,13097081.0,train
+1455,A. Iwobi,Fulham,2024,Attacker,28,9,6,2994,75200000.0,45721145.0,train
+1460,B. Saka,Arsenal,2024,Attacker,22,6,10,1735,26900000.0,31798850.0,train
+1463,J. Willock,Newcastle,2024,Midfielder,24,0,2,1075,6700000.0,12605831.0,train
+1469,D. Welbeck,Brighton,2024,Attacker,33,10,4,2122,23800000.0,19073047.0,train
+1590,José Sá,Wolves,2024,Goalkeeper,31,0,0,2609,3400000.0,6480103.0,test
+1600,K. Tsimikas,Liverpool,2024,Defender,28,0,1,834,9100000.0,8759275.0,train
+1646,Lucas Paquetá,West Ham,2024,Midfielder,26,4,0,2384,37700000.0,20961441.0,train
+1904,B. Kamara,Aston Villa,2024,Midfielder,24,1,0,1735,8900000.0,15390751.0,train
+1934,S. Berge,Fulham,2024,Midfielder,26,0,0,2232,22300000.0,17084004.0,train
+1946,L. Trossard,Arsenal,2024,Attacker,29,8,7,2551,38600000.0,36308610.0,test
+2032,J. Strand Larsen,Wolves,2024,Attacker,24,14,4,2601,58700000.0,48344792.0,train
+2056,Pablo Sarabia,Wolves,2024,Attacker,32,3,2,819,9800000.0,10852577.0,train
+2165,V. Mykolenko,Everton,2024,Defender,25,1,2,3084,12500000.0,21486848.0,train
+2218,I. Sarr,Crystal Palace,2024,Attacker,26,8,6,2719,41200000.0,42558020.0,train
+2273,Kepa,Bournemouth,2024,Goalkeeper,29,0,0,2790,5700000.0,8440148.0,train
+2284,Emerson,West Ham,2024,Defender,29,2,1,2132,13900000.0,12960711.0,train
+2287,R. Barkley,Aston Villa,2024,Midfielder,30,3,1,566,13700000.0,9843481.0,test
+2289,Jorginho,Arsenal,2024,Midfielder,32,0,0,705,6200000.0,6500282.0,train
+2291,M. Kovačić,Manchester City,2024,Midfielder,30,6,2,2207,8600000.0,19082995.0,train
+2298,C. Hudson-Odoi,Nottingham Forest,2024,Attacker,23,5,2,2218,17200000.0,27322432.0,train
+2413,Richarlison,Tottenham,2024,Attacker,27,4,1,514,12400000.0,16864973.0,train
+2467,Lisandro Martínez,Manchester United,2024,Defender,26,2,1,1754,9800000.0,13827283.0,train
+2476,G. Rodríguez,West Ham,2024,Midfielder,30,0,1,1172,9100000.0,10234951.0,train
+2489,L. Díaz,Liverpool,2024,Attacker,27,13,5,2410,61900000.0,45327875.0,train
+2490,J. Lerma,Crystal Palace,2024,Midfielder,29,0,1,2290,19100000.0,15545143.0,train
+2507,M. Almirón,Newcastle,2024,Midfielder,30,0,0,150,4800000.0,7048980.0,train
+2601,D. Kamada,Crystal Palace,2024,Midfielder,27,0,0,1593,9100000.0,14152997.0,train
+2678,Diogo Jota,Liverpool,2024,Attacker,27,6,3,1194,26000000.0,22891434.0,test
+2724,L. Digne,Aston Villa,2024,Defender,31,0,4,2358,16400000.0,11761935.0,test
+2729,J. Andersen,Crystal Palace / Fulham,2024,Defender,28,0,0,2674,15200000.0,15558888.0,train
+2734,P. Billing,Bournemouth,2024,Midfielder,28,0,0,177,7700000.0,8373953.0,train
+2752,M. Luongo,Ipswich,2024,Midfielder,31,0,0,195,10200000.0,6337065.0,train
+2771,O. Aina,Nottingham Forest,2024,Defender,27,2,1,3002,19300000.0,20308789.0,train
+2806,F. Schär,Newcastle,2024,Defender,32,4,0,2937,11200000.0,12604278.0,test
+2817,N. Milenković,Nottingham Forest,2024,Defender,26,5,2,3330,22800000.0,25359239.0,train
+2823,S. Lukić,Fulham,2024,Midfielder,27,0,2,2356,24000000.0,19111382.0,train
+2855,E. Krafth,Newcastle,2024,Defender,29,0,0,349,10100000.0,6587028.0,train
+2864,A. Isak,Newcastle,2024,Attacker,24,23,6,2769,106700000.0,77027819.0,train
+2869,E. Álvarez,West Ham,2024,Midfielder,26,0,1,1783,16300000.0,15395589.0,test
+2887,R. Jiménez,Fulham,2024,Attacker,33,12,3,2505,51600000.0,23009926.0,train
+2919,M. Sels,Nottingham Forest,2024,Goalkeeper,32,0,0,3420,6800000.0,7182559.0,train
+2920,T. Castagne,Fulham,2024,Defender,28,0,1,1651,10000000.0,11345011.0,test
+2926,Y. Tielemans,Aston Villa,2024,Midfielder,27,3,7,3032,35900000.0,31012309.0,train
+2932,J. Pickford,Everton,2024,Goalkeeper,30,0,1,3420,8100000.0,9705430.0,train
+2933,B. Chilwell,Crystal Palace,2024,Defender,27,1,0,253,6300000.0,7757366.0,train
+2934,M. Keane,Everton,2024,Defender,31,3,0,1046,7500000.0,7770306.0,train
+2935,H. Maguire,Manchester United,2024,Defender,31,1,0,1764,10500000.0,8689916.0,test
+2936,J. Tarkowski,Everton,2024,Defender,31,1,1,2924,10200000.0,13554353.0,train
+2937,D. Rice,Arsenal,2024,Midfielder,25,4,7,2833,27400000.0,31647474.0,test
+2938,J. Ward-Prowse,West Ham / Nottingham Forest,2024,Midfielder,29,0,2,415,16800000.0,9361053.0,train
+2939,C. Wilson,Newcastle,2024,Attacker,32,0,0,368,11600000.0,7548388.0,train
+2990,I. Gueye,Everton,2024,Midfielder,34,0,3,3070,13900000.0,11155753.0,train
+2997,Ł. Fabiański,West Ham,2024,Goalkeeper,39,0,0,1160,700000.0,753801.0,train
+2999,J. Bednarek,Southampton,2024,Defender,28,2,0,2535,15200000.0,16023736.0,train
+3080,M. Munetsi,Wolves,2024,Midfielder,28,2,1,1079,27300000.0,12755153.0,train
+3339,C. Doucouré,Crystal Palace,2024,Midfielder,24,0,0,462,8600000.0,9791283.0,train
+3428,J. Ayew,Crystal Palace / Leicester,2024,Attacker,32,5,0,1662,18000000.0,13885234.0,test
+6056,N. Domínguez,Nottingham Forest,2024,Midfielder,26,0,1,1970,26800000.0,16713131.0,test
+6610,M. Senesi,Bournemouth,2024,Defender,27,0,0,1118,13900000.0,9387699.0,train
+6716,A. Mac Allister,Liverpool,2024,Midfielder,25,5,5,2607,32900000.0,28020865.0,test
+7600,Igor,Brighton,2024,Defender,26,0,0,967,9400000.0,9428640.0,train
+8500,W. Endo,Liverpool,2024,Midfielder,31,0,0,257,5100000.0,6463275.0,train
+8598,T. Awoniyi,Nottingham Forest,2024,Attacker,26,1,0,477,5000000.0,13292676.0,train
+8694,W. Faes,Leicester,2024,Defender,26,1,0,2811,8600000.0,17845353.0,train
+8794,G. Hirst,Ipswich,2024,Attacker,25,3,1,649,15500000.0,16510761.0,train
+9971,Antony,Manchester United,2024,Attacker,24,0,0,133,13600000.0,10959898.0,test
+10135,Bruno Guimarães,Newcastle,2024,Midfielder,26,5,6,3282,24900000.0,35588158.0,train
+10329,João Pedro,Chelsea,2024,Attacker,22,10,6,1953,21500000.0,33796440.0,train
+13736,D. Muñoz,Crystal Palace,2024,Defender,28,4,5,3233,44300000.0,25670291.0,train
+15745,M. Roerslev,Brentford,2024,Defender,25,0,2,1096,12400000.0,10748662.0,train
+15797,J. Cajuste,Ipswich,2024,Midfielder,24,1,1,1978,44100000.0,16799804.0,train
+15812,P. Onuachu,Southampton,2024,Attacker,30,4,1,1067,10000000.0,14713078.0,train
+15870,M. Hermansen,Leicester,2024,Goalkeeper,24,0,0,2386,8800000.0,8242346.0,train
+15884,J. Lindstrøm,Everton,2024,Midfielder,24,0,1,1241,11800000.0,13070177.0,test
+15908,M. Damsgaard,Brentford,2024,Midfielder,24,2,10,2930,24100000.0,33985120.0,train
+15911,M. Kudus,West Ham,2024,Midfielder,23,5,3,2604,19100000.0,25742677.0,train
+17365,H. Toffolo,Nottingham Forest,2024,Defender,28,0,0,135,5000000.0,6609590.0,train
+17579,S. Szmodics,Ipswich,2024,Attacker,28,4,0,1001,12200000.0,16278546.0,test
+17597,D. O&apos;Shea,Ipswich,2024,Defender,25,0,2,3123,21300000.0,20967940.0,train
+17661,J. Branthwaite,Everton,2024,Defender,22,0,1,2510,17200000.0,13738548.0,train
+17714,L. Woolfenden,Ipswich,2024,Defender,25,0,0,1185,9400000.0,10180269.0,train
+18146,D. Ward,Leicester,2024,Goalkeeper,31,0,0,134,1900000.0,2949131.0,test
+18397,J. Taylor,Ipswich,2024,Midfielder,26,1,0,846,6900000.0,11838248.0,train
+18592,I. Ndiaye,Everton,2024,Attacker,24,9,0,2441,57600000.0,32504215.0,train
+18739,W. Boly,Nottingham Forest,2024,Defender,33,0,0,146,2200000.0,3730161.0,test
+18741,C. Coady,Leicester,2024,Defender,31,1,0,1714,10100000.0,8858851.0,train
+18742,M. Doherty,Wolves,2024,Defender,32,2,1,2113,10700000.0,9209039.0,train
+18744,M. Kilman,West Ham,2024,Defender,27,0,1,3349,11300000.0,20555937.0,train
+18746,M. Gibbs-White,Nottingham Forest,2024,Midfielder,24,7,8,2822,48800000.0,36629961.0,test
+18753,Adama Traoré,Fulham,2024,Attacker,28,2,7,1794,22800000.0,24180202.0,train
+18758,S. Coleman,Everton,2024,Defender,35,0,0,215,2500000.0,2695876.0,train
+18766,D. Calvert-Lewin,Everton,2024,Attacker,27,3,1,1629,22400000.0,20614843.0,test
+18771,Ricardo Pereira,Leicester,2024,Defender,30,0,0,392,5000000.0,6125243.0,test
+18772,J. Evans,Manchester United,2024,Defender,36,0,0,314,1500000.0,2231372.0,train
+18778,H. Barnes,Newcastle,2024,Midfielder,26,9,4,1766,65600000.0,26093840.0,train
+18779,H. Choudhury,Leicester,2024,Midfielder,26,0,0,130,17100000.0,8648057.0,train
+18784,J. Maddison,Tottenham,2024,Midfielder,27,9,7,1817,47500000.0,29031916.0,test
+18786,W. Ndidi,Leicester,2024,Midfielder,27,0,5,2336,19800000.0,21249995.0,test
+18788,J. Vardy,Leicester,2024,Attacker,37,9,4,2840,15900000.0,9778868.0,train
+18805,A. Doucouré,Everton,2024,Midfielder,31,3,2,2577,10600000.0,17111574.0,train
+18806,W. Hughes,Crystal Palace,2024,Midfielder,29,0,3,2118,20600000.0,16058944.0,train
+18813,A. Cresswell,West Ham,2024,Defender,34,0,0,822,5300000.0,3920139.0,train
+18814,I. Diop,Fulham,2024,Defender,27,0,0,1357,14100000.0,10408511.0,train
+18819,M. Antonio,West Ham,2024,Attacker,34,1,1,844,7100000.0,6622361.0,train
+18823,B. Johnson,Ipswich,2024,Defender,24,1,2,1366,15000000.0,12030766.0,train
+18843,J. Schlupp,Crystal Palace,2024,Midfielder,31,0,0,92,6700000.0,6253739.0,test
+18846,A. Wan-Bissaka,West Ham,2024,Defender,26,2,5,3155,29700000.0,23274058.0,train
+18860,M. Travers,Bournemouth,2024,Goalkeeper,25,0,0,450,3500000.0,4472211.0,train
+18861,N. Aké,Manchester City,2024,Defender,29,0,0,688,3900000.0,7336988.0,train
+18862,N. Clyne,Crystal Palace,2024,Defender,33,0,0,479,3300000.0,4271821.0,train
+18869,A. Smith,Bournemouth,2024,Defender,33,0,0,1597,6100000.0,6007589.0,train
+18870,D. Brooks,Bournemouth,2024,Midfielder,27,2,0,949,17100000.0,12084352.0,train
+18872,L. Cook,Bournemouth,2024,Midfielder,27,1,3,2978,19400000.0,25207473.0,train
+18873,R. Fraser,Southampton,2024,Midfielder,30,0,0,307,8200000.0,7359933.0,train
+18883,D. Solanke,Tottenham,2024,Attacker,26,9,3,2205,42900000.0,35004781.0,train
+18886,M. Dúbravka,Newcastle,2024,Goalkeeper,35,0,0,900,2900000.0,1823484.0,test
+18901,S. Longstaff,Newcastle,2024,Midfielder,26,0,0,785,9400000.0,10853427.0,train
+18911,N. Pope,Newcastle,2024,Goalkeeper,32,0,0,2520,3800000.0,5458356.0,test
+18917,B. Mee,Brentford,2024,Defender,34,0,0,179,3500000.0,3183141.0,train
+18918,C. Taylor,Southampton,2024,Defender,30,0,0,351,7800000.0,6100465.0,train
+18929,D. McNeil,Everton,2024,Attacker,24,4,6,1376,33000000.0,24829650.0,test
+18931,C. Wood,Nottingham Forest,2024,Attacker,32,20,3,2978,39600000.0,41812196.0,train
+18932,F. Forster,Tottenham,2024,Goalkeeper,36,0,0,630,2100000.0,1418032.0,train
+18935,A. McCarthy,Southampton,2024,Goalkeeper,34,0,0,450,1500000.0,1910048.0,train
+18940,J. Stephens,Southampton,2024,Defender,30,1,0,1393,6400000.0,8738318.0,train
+18943,J. Vestergaard,Leicester,2024,Defender,31,0,0,1395,5600000.0,7382362.0,train
+18947,M. Lemina,Wolves,2024,Midfielder,30,1,3,1363,13400000.0,12362500.0,test
+18955,D. Ings,West Ham,2024,Attacker,32,1,2,271,8000000.0,9476862.0,train
+18959,Robert Sánchez,Chelsea,2024,Goalkeeper,26,0,0,2880,15100000.0,9830304.0,train
+18960,J. Steele,Brighton,2024,Goalkeeper,33,0,0,180,3500000.0,2158090.0,train
+18961,D. Burn,Newcastle,2024,Defender,32,1,1,3330,14700000.0,13011679.0,train
+18963,L. Dunk,Brighton,2024,Defender,32,0,0,2083,6400000.0,8516671.0,test
+18968,Y. Bissouma,Tottenham,2024,Midfielder,27,2,0,1407,11400000.0,14043046.0,train
+18973,S. March,Brighton,2024,Midfielder,30,0,0,168,8900000.0,6929159.0,train
+19004,B. De Cordova-Reid,Leicester,2024,Attacker,31,1,2,740,9000000.0,10569099.0,train
+19025,T. Cairney,Fulham,2024,Midfielder,33,2,0,632,6000000.0,6194894.0,train
+19030,M. O&apos;Riley,Brighton,2024,Midfielder,23,2,2,938,10100000.0,13107261.0,test
+19032,R. Sessegnon,Fulham,2024,Midfielder,24,4,2,578,31600000.0,13661631.0,train
+19035,H. Elliott,Liverpool,2024,Midfielder,21,1,2,356,6600000.0,9405812.0,test
+19073,B. Godfrey,Ipswich,2024,Defender,26,0,0,159,10700000.0,7147502.0,test
+19088,D. Henderson,Crystal Palace,2024,Goalkeeper,27,0,0,3420,11600000.0,11382865.0,train
+19119,L. Davis,Ipswich,2024,Defender,24,1,2,2746,16200000.0,18194104.0,train
+19128,J. Harrison,Everton,2024,Attacker,27,1,0,2084,28600000.0,20244806.0,train
+19130,K. Phillips,Ipswich,2024,Midfielder,28,0,0,1239,18800000.0,11664219.0,train
+19136,J. Clarke,Ipswich,2024,Attacker,23,0,4,1186,19500000.0,17443224.0,train
+19143,S. Johnstone,Wolves,2024,Goalkeeper,31,0,0,630,4700000.0,3222322.0,train
+19145,T. Adarabioyo,Chelsea,2024,Defender,26,1,1,1403,10900000.0,11468742.0,test
+19147,C. Dawson,Wolves,2024,Defender,34,0,0,967,3900000.0,4108634.0,train
+19152,C. Townsend,Ipswich,2024,Defender,31,0,1,342,9200000.0,5819187.0,train
+19163,J. Murphy,Newcastle,2024,Midfielder,29,8,11,2379,49900000.0,33550492.0,test
+19170,M. Rogers,Aston Villa,2024,Attacker,22,8,10,3129,58200000.0,50341437.0,train
+19179,T. Mings,Aston Villa,2024,Defender,31,0,0,1121,5200000.0,6848027.0,train
+19182,A. Tuanzebe,Ipswich,2024,Defender,26,0,1,1717,13500000.0,12628014.0,test
+19187,J. Grealish,Manchester City,2024,Midfielder,28,1,1,735,6100000.0,11115426.0,train
+19191,J.  McGinn,Aston Villa,2024,Midfielder,29,1,4,2247,15000000.0,18074128.0,test
+19192,J. Ramsey,Newcastle,2024,Midfielder,23,1,3,1628,13300000.0,16274299.0,test
+19220,M. Mount,Manchester United,2024,Midfielder,25,1,0,625,18400000.0,10978213.0,train
+19221,H. Wilson,Fulham,2024,Attacker,27,6,1,1163,54800000.0,20383492.0,train
+19235,D. Spence,Tottenham,2024,Defender,23,1,2,1788,30600000.0,12720349.0,train
+19245,M. Tavernier,Bournemouth,2024,Midfielder,25,3,5,1938,30200000.0,22099446.0,train
+19248,N. Wood-Gordon,Southampton,2024,Defender,22,0,0,774,9900000.0,7997506.0,train
+19263,L. Kelly,Newcastle,2024,Defender,25,0,1,300,11000000.0,8270656.0,test
+19265,A. Webster,Brighton,2024,Defender,29,0,0,888,6500000.0,7993509.0,train
+19281,A. Semenyo,Bournemouth,2024,Attacker,24,11,5,3209,48400000.0,52852947.0,test
+19298,M. Cash,Aston Villa,2024,Defender,26,1,1,2077,10400000.0,14790383.0,train
+19305,R. Yates,Nottingham Forest,2024,Midfielder,26,2,1,1905,12100000.0,17384623.0,train
+19341,D. Bentley,Wolves,2024,Goalkeeper,31,0,0,180,2600000.0,2910244.0,train
+19346,R. Henry,Brentford,2024,Defender,27,0,0,93,5800000.0,6914825.0,train
+19354,E. Konsa,Aston Villa,2024,Defender,26,2,0,2937,24500000.0,19005536.0,train
+19365,C. Ogbene,Ipswich,2024,Attacker,27,0,0,240,25600000.0,11011945.0,train
+19366,O. Watkins,Aston Villa,2024,Attacker,28,16,8,2610,72800000.0,57382361.0,train
+19428,J. Bowen,West Ham,2024,Attacker,27,13,8,2979,87600000.0,59222648.0,train
+19465,David Raya,Arsenal,2024,Goalkeeper,28,0,0,3420,11300000.0,11075507.0,test
+19480,H. Reed,Fulham,2024,Midfielder,29,0,0,99,10900000.0,7637867.0,train
+19484,A. Armstrong,Southampton,2024,Attacker,27,2,2,1254,21600000.0,18295971.0,train
+19485,B. Brereton,Southampton,2024,Attacker,25,0,0,446,11900000.0,12384697.0,train
+19495,N. Collins,Brentford,2024,Defender,23,2,3,3420,14800000.0,22971852.0,train
+19541,C. Walton,Ipswich,2024,Goalkeeper,28,0,0,630,3100000.0,4367510.0,test
+19545,R. James,Chelsea,2024,Defender,24,1,1,1063,7100000.0,10242246.0,train
+19549,A. Robinson,Fulham,2024,Defender,26,0,10,3167,44100000.0,25105342.0,train
+19558,Sam Morsy,Ipswich,2024,Midfielder,32,1,1,2755,23200000.0,13492886.0,train
+19573,J. Lumley,Southampton,2024,Goalkeeper,29,0,0,270,4200000.0,3499022.0,test
+19586,E. Eze,Crystal Palace,2024,Midfielder,26,8,8,2603,16900000.0,37046360.0,test
+19587,R. Manning,Southampton,2024,Defender,28,0,1,1470,11000000.0,10426483.0,train
+19599,E. Martínez,Aston Villa,2024,Goalkeeper,31,0,0,3196,8300000.0,7729750.0,train
+19719,J. Bree,Southampton,2024,Defender,26,0,1,1076,9100000.0,10070939.0,train
+19720,T. Chalobah,Crystal Palace,2024,Defender,25,3,1,1063,18500000.0,11876078.0,train
+19733,F. Downes,Southampton,2024,Midfielder,25,1,0,2156,17400000.0,18347226.0,train
+19760,J. Justin,Leicester,2024,Defender,26,2,2,2920,10400000.0,19606919.0,train
+19789,E. Pinnock,Brentford,2024,Defender,31,2,0,1913,18100000.0,9516520.0,train
+19825,J. Aribo,Southampton,2024,Midfielder,28,3,0,2014,14400000.0,17131241.0,test
+19959,B. White,Arsenal,2024,Defender,26,0,2,1213,4800000.0,11096296.0,train
+20007,C. Chaplin,Ipswich,2024,Attacker,27,1,1,869,19300000.0,15165072.0,train
+20089,W. Burns,Ipswich,2024,Attacker,29,0,1,933,18300000.0,12747521.0,train
+20093,J. Hill,Bournemouth,2024,Defender,22,0,1,448,7800000.0,7624917.0,train
+20355,A. Ramsdale,Southampton,2024,Goalkeeper,26,0,0,2700,14600000.0,8954197.0,train
+20457,C. Burgess,Ipswich,2024,Defender,28,0,2,1540,6100000.0,11154784.0,train
+20589,B. Mbeumo,Brentford,2024,Attacker,24,20,7,3417,108600000.0,87152499.0,test
+20649,Y. Wissa,Brentford,2024,Attacker,27,19,4,2929,64200000.0,63794939.0,train
+20665,J. Bellegarde,Wolves,2024,Midfielder,26,2,7,1706,31000000.0,19900924.0,train
+20995,M. Lacroix,Crystal Palace,2024,Defender,24,1,1,3118,21700000.0,19446571.0,test
+21138,R. Aït-Nouri,Wolves,2024,Defender,23,4,7,3129,29600000.0,27552672.0,test
+21998,A. Disasi,Aston Villa,2024,Defender,26,0,0,488,10600000.0,7999502.0,test
+22090,W. Saliba,Arsenal,2024,Defender,23,2,0,3042,29500000.0,18836726.0,test
+22094,W. Fofana,Chelsea,2024,Defender,23,0,0,1176,14300000.0,9718707.0,train
+22149,I. Sangaré,Nottingham Forest,2024,Midfielder,26,0,1,597,17200000.0,10829474.0,train
+22224,Gabriel Magalhães,Arsenal,2024,Defender,26,3,1,2366,18100000.0,17564950.0,test
+22233,B. Soumaré,Leicester,2024,Midfielder,25,0,0,2171,20200000.0,16886257.0,train
+24882,O. Mangala,Everton,2024,Midfielder,26,1,0,1262,17200000.0,13397065.0,test
+24888,Hwang Hee-Chan,Wolves,2024,Attacker,28,2,0,650,6100000.0,13717894.0,train
+25004,S. Ortega,Manchester City,2024,Goalkeeper,31,0,0,1099,2300000.0,3919201.0,train
+25061,A. Bella-Kotchap,Southampton,2024,Defender,22,0,0,329,4100000.0,6891404.0,train
+25073,V. Janelt,Brentford,2024,Midfielder,26,1,3,2287,18500000.0,21119289.0,train
+25287,K. Danso,Tottenham,2024,Defender,25,0,0,842,9000000.0,8864905.0,train
+25391,N. Füllkrug,West Ham,2024,Attacker,31,3,2,785,4800000.0,12140232.0,train
+25927,J. Mateta,Crystal Palace,2024,Attacker,27,14,2,2658,32400000.0,45024303.0,train
+26232,M. Flekken,Brentford,2024,Goalkeeper,31,0,2,3276,13600000.0,8544681.0,train
+30407,C. Nørgaard,Brentford,2024,Midfielder,30,5,4,2829,16200000.0,23981673.0,train
+30410,F. Chiesa,Liverpool,2024,Attacker,26,0,0,104,8600000.0,11099245.0,train
+30427,C. Okoli,Leicester,2024,Defender,23,1,0,1122,4600000.0,9625009.0,train
+30435,D. Kulusevski,Tottenham,2024,Midfielder,24,7,4,2390,17800000.0,28321161.0,train
+30776,C. Romero,Tottenham,2024,Defender,26,1,0,1421,8600000.0,11494159.0,train
+31146,S. Tonali,Newcastle,2024,Midfielder,24,4,2,2631,13800000.0,23994212.0,train
+31354,G. Vicario,Tottenham,2024,Goalkeeper,27,0,0,2160,7300000.0,7568637.0,train
+32887,Y. Sugawara,Southampton,2024,Defender,24,1,1,1564,16500000.0,12202271.0,train
+36922,S. van den Berg,Brentford,2024,Defender,22,0,0,2588,9800000.0,14702197.0,train
+37127,M. Ødegaard,Arsenal,2024,Midfielder,25,3,8,2331,26100000.0,27865067.0,train
+37145,T. Malacia,Manchester United,2024,Defender,24,0,0,101,9100000.0,6921044.0,train
+37161,L. Sinisterra,Bournemouth,2024,Attacker,25,1,1,229,10200000.0,14034735.0,train
+37724,C. Summerville,West Ham,2024,Attacker,22,1,1,779,16900000.0,13026010.0,train
+38695,J. van Hecke,Brighton,2024,Defender,24,1,1,2961,10500000.0,19644213.0,train
+38734,S. Botman,Newcastle,2024,Defender,24,0,0,418,6500000.0,7636020.0,train
+38746,J. Timber,Arsenal,2024,Defender,23,1,3,2423,14800000.0,16440525.0,train
+41606,Toti Gomes,Wolves,2024,Defender,25,0,1,2616,24000000.0,16068496.0,train
+45078,R. Stewart,Southampton,2024,Attacker,28,1,0,385,17500000.0,11819277.0,train
+46815,Pau Torres,Aston Villa,2024,Defender,27,0,0,2020,5600000.0,12417835.0,train
+47311,Mikel Merino,Arsenal,2024,Midfielder,28,7,2,1581,12000000.0,18703799.0,train
+47380,Marc Cucurella,Chelsea,2024,Defender,26,5,1,2990,22300000.0,23113561.0,train
+47438,M. Jensen,Brentford,2024,Midfielder,28,0,2,853,12100000.0,11385772.0,train
+47499,E. Ünal,Bournemouth,2024,Attacker,27,2,1,345,8600000.0,14568785.0,train
+47519,Pedro Porro,Tottenham,2024,Defender,24,2,6,2622,14200000.0,21602478.0,train
+47547,Álex Moreno,Nottingham Forest,2024,Defender,31,0,1,959,4200000.0,6805203.0,train
+51051,J. Araujo,Bournemouth,2024,Defender,22,0,0,516,22300000.0,7128158.0,train
+51617,D. Núñez,Liverpool,2024,Attacker,25,5,2,1137,21400000.0,21242866.0,train
+61431,J. Kiwior,Arsenal,2024,Defender,24,1,0,1132,12700000.0,9971129.0,train
+61742,H. Valdimarsson,Brentford,2024,Goalkeeper,22,0,0,144,2200000.0,3709543.0,test
+63577,M. Mudryk,Chelsea,2024,Midfielder,23,0,0,158,8400000.0,8556018.0,train
+67943,Morato,Nottingham Forest,2024,Defender,23,0,0,922,4900000.0,8884167.0,train
+67971,M. Guéhi,Crystal Palace,2024,Defender,24,3,2,3060,16600000.0,21865279.0,train
+68466,A. Irving,West Ham,2024,Midfielder,24,0,0,160,5500000.0,8894517.0,train
+70100,J. Zirkzee,Manchester United,2024,Attacker,23,3,1,1406,10300000.0,18803218.0,train
+70747,J. Enciso,Brighton / Ipswich,2024,Midfielder,20,2,0,1164,15600000.0,10322287.0,train
+81573,Omar Marmoush,Manchester City,2024,Attacker,25,7,0,1190,18500000.0,21509659.0,train
+82097,A. Palmer,Ipswich,2024,Goalkeeper,27,0,0,1170,10300000.0,5459493.0,train
+90590,G. Rutter,Brighton,2024,Attacker,22,5,3,1672,31300000.0,22807552.0,train
+92993,M. Wieffer,Brighton,2024,Midfielder,24,1,3,1045,8200000.0,14033602.0,train
+106725,K. Lewis-Potter,Brentford,2024,Attacker,23,1,3,3102,25700000.0,31546052.0,train
+106835,K. Mitoma,Brighton,2024,Midfielder,27,10,4,2610,21700000.0,32343864.0,test
+116117,M. Caicedo,Chelsea,2024,Midfielder,22,1,2,3356,17900000.0,24916471.0,train
+125743,Beto,Everton,2024,Attacker,26,8,0,1541,27600000.0,23906790.0,test
+126791,N. Broadhead,Ipswich,2024,Attacker,26,2,0,697,11100000.0,14631214.0,train
+126949,C. Richards,Crystal Palace,2024,Defender,24,1,0,1925,9500000.0,13147151.0,train
+127579,J. Greaves,Ipswich,2024,Defender,23,1,0,2205,19000000.0,13318531.0,train
+127769,Gabriel Martinelli,Arsenal,2024,Attacker,23,8,4,2298,29000000.0,33923893.0,train
+128338,W. Coulibaly,Leicester,2024,Defender,25,0,0,107,13300000.0,6908721.0,train
+129033,J. Gvardiol,Manchester City,2024,Defender,22,5,0,3279,30500000.0,20401344.0,train
+129058,B. Verbruggen,Brighton,2024,Goalkeeper,21,0,1,3240,10500000.0,9697334.0,train
+129643,E. Ferguson,West Ham / Brighton,2024,Attacker,19,1,0,411,9000000.0,8290250.0,train
+129711,B. Johnson,Tottenham,2024,Attacker,23,11,3,2178,22200000.0,36480543.0,train
+130421,W. Smallbone,Southampton,2024,Midfielder,24,1,0,682,21000000.0,11126848.0,train
+130423,B. Gilmour,Brighton,2024,Midfielder,23,0,0,97,6500000.0,8429081.0,train
+135068,E. Agbadou,Wolves,2024,Defender,27,1,0,1411,13600000.0,10751002.0,train
+135334,S. Bueno,Wolves,2024,Defender,25,0,0,1716,9400000.0,11624910.0,train
+136723,N. Madueke,Chelsea,2024,Attacker,22,7,3,2049,25500000.0,27700466.0,train
+137302,C. Archer,Southampton,2024,Attacker,22,2,0,1430,21100000.0,15944955.0,train
+138417,N. Patterson,Everton,2024,Defender,22,0,1,343,8300000.0,7427063.0,train
+138780,N. Williams,Nottingham Forest,2024,Defender,23,1,3,2599,22900000.0,17352775.0,train
+138787,A. Gordon,Newcastle,2024,Attacker,23,6,5,2444,33000000.0,33617435.0,train
+138815,T. Lamptey,Brighton,2024,Defender,23,2,2,861,9800000.0,10334594.0,train
+138816,I. Maatsen,Aston Villa,2024,Defender,22,1,2,1164,12200000.0,9980776.0,train
+138822,A. Broja,Everton,2024,Attacker,22,0,0,331,12200000.0,10679262.0,train
+138836,H. Clarke,Ipswich,2024,Defender,23,0,0,377,5900000.0,7442485.0,test
+138908,E. Anderson,Nottingham Forest,2024,Midfielder,21,2,6,2742,32300000.0,23350590.0,train
+138931,J. Philogene,Ipswich / Aston Villa,2024,Attacker,22,2,0,799,8200000.0,13654151.0,test
+141901,Jota Silva,Nottingham Forest,2024,Attacker,25,3,1,891,48000000.0,16575071.0,train
+144729,T. Harwood-Bellis,Southampton,2024,Defender,22,1,0,2828,7500000.0,15935735.0,train
+144732,T. Doyle,Wolves,2024,Midfielder,22,0,1,521,4300000.0,9670632.0,train
+148099,K. Dewsbury-Hall,Chelsea,2024,Midfielder,25,0,1,256,10000000.0,9939299.0,train
+152849,M. van de Ven,Tottenham,2024,Defender,23,0,2,1018,4800000.0,9955023.0,test
+152856,Evanilson,Bournemouth,2024,Attacker,24,10,1,2335,50600000.0,34969253.0,train
+152953,L. Colwill,Chelsea,2024,Defender,21,2,1,3150,18200000.0,16680909.0,train
+152967,C. Bassey,Fulham,2024,Defender,24,1,0,3074,10900000.0,18591115.0,train
+152969,L. Thomas,Leicester,2024,Defender,23,0,0,1113,11100000.0,9450495.0,test
+152970,J. Stolarczyk,Leicester,2024,Goalkeeper,23,0,0,900,3700000.0,5155206.0,train
+152982,C. Palmer,Chelsea,2024,Midfielder,22,15,8,3199,19000000.0,53315248.0,train
+153066,Fábio Carvalho,Brentford,2024,Midfielder,21,2,1,444,10500000.0,9604659.0,train
+153430,A. Elanga,Newcastle,2024,Attacker,22,6,11,2508,53500000.0,39643223.0,train
+156428,B. Austin,Tottenham,2024,Goalkeeper,25,0,0,90,3200000.0,4014621.0,train
+157052,R. Calafiori,Arsenal,2024,Defender,22,2,1,984,4000000.0,9862936.0,test
+157997,A. Diallo,Manchester United,2024,Attacker,22,8,6,1901,28200000.0,30326084.0,train
+158694,T. Livramento,Newcastle,2024,Defender,21,0,1,2842,22200000.0,14027411.0,train
+158697,J. McAtee,Manchester City,2024,Midfielder,21,3,0,340,10800000.0,9456285.0,train
+158698,J. Quansah,Liverpool,2024,Defender,21,0,0,487,7900000.0,6598704.0,train
+158710,V. Kristiansen,Leicester,2024,Defender,21,0,1,2490,16400000.0,12585726.0,train
+161671,I. Zabarnyi,Bournemouth,2024,Defender,21,0,1,3112,17700000.0,16337418.0,train
+161907,M. Gusto,Chelsea,2024,Defender,21,0,1,1855,5600000.0,10740692.0,train
+161948,L. Delap,Ipswich,2024,Attacker,21,12,2,2612,48000000.0,36469258.0,train
+162075,P. Maghoma,Brentford,2024,Midfielder,23,0,0,111,5300000.0,8426896.0,train
+162498,R. Drăgușin,Tottenham,2024,Defender,22,0,0,1253,6200000.0,9413429.0,train
+162714,A. Onana,Aston Villa,2024,Midfielder,22,3,0,1631,25900000.0,14346406.0,train
+178077,K. Schade,Brentford,2024,Midfielder,22,11,2,2300,33600000.0,26212721.0,test
+180317,C. Bradley,Liverpool,2024,Defender,21,0,2,748,7600000.0,7805389.0,train
+180919,Welington,Southampton,2024,Defender,23,0,0,482,10200000.0,7708105.0,train
+182201,T. Mitchell,Crystal Palace,2024,Defender,24,0,5,3102,9700000.0,22358378.0,train
+195103,João Gomes,Wolves,2024,Midfielder,23,3,1,2987,22200000.0,24812469.0,train
+195106,Rodrigo Muniz,Fulham,2024,Attacker,23,8,1,950,18900000.0,20327245.0,train
+195717,Y. Mosquera,Wolves,2024,Defender,23,0,0,442,9500000.0,7398945.0,test
+195993,C. Alcaraz,Southampton / Everton,2024,Midfielder,21,2,6,770,16800000.0,12862858.0,train
+196156,Thiago,Brentford,2024,Attacker,23,0,0,174,15600000.0,10273273.0,train
+196298,R. Sosa,Nottingham Forest,2024,Attacker,24,1,0,327,9300000.0,12572856.0,train
+199837,K. Sulemana,Southampton,2024,Attacker,22,1,1,1405,13800000.0,16183020.0,train
+204039,D. Udogie,Tottenham,2024,Defender,21,0,1,1933,14300000.0,10606691.0,train
+206254,M. Kerkez,Bournemouth,2024,Defender,20,2,5,3342,20200000.0,19165089.0,train
+237129,P. Sarr,Tottenham,2024,Midfielder,21,3,2,1915,19300000.0,16220701.0,train
+263177,A. Grønbæk,Southampton,2024,Midfielder,23,0,0,143,8800000.0,8376707.0,train
+263538,Y. Yarmolyuk,Brentford,2024,Midfielder,20,0,0,1441,13800000.0,10242472.0,train
+265784,André,Wolves,2024,Midfielder,23,0,0,2495,15600000.0,18044360.0,train
+265820,Y. Ayari,Brighton,2024,Midfielder,20,2,1,1969,6500000.0,13913372.0,train
+265826,A. Kinský,Tottenham,2024,Goalkeeper,21,0,0,540,5300000.0,3770999.0,train
+266657,Sávio,Manchester City,2024,Attacker,20,1,8,1770,27200000.0,19690093.0,train
+270139,J. O&apos;Brien,Everton,2024,Defender,23,2,0,1569,8700000.0,11973492.0,train
+270508,L. Ugochukwu,Southampton,2024,Midfielder,20,1,1,1663,23200000.0,11936295.0,train
+270510,M. Tel,Tottenham,2024,Attacker,19,2,1,913,8000000.0,10980898.0,train
+275170,Danilo Santos,Nottingham Forest,2024,Midfielder,23,0,0,293,3400000.0,8999305.0,train
+278370,D. Gómez,Brighton,2024,Midfielder,21,1,0,512,9800000.0,8889315.0,train
+278898,C. Riad,Crystal Palace,2024,Defender,21,0,0,90,6100000.0,5907948.0,train
+282125,R. Lavia,Chelsea,2024,Midfielder,20,0,1,803,15000000.0,8519338.0,train
+282126,Carlos Forbs,Wolves,2024,Attacker,20,0,0,241,7100000.0,8794106.0,train
+282770,Rodrigo Gomes,Wolves,2024,Defender,21,2,0,823,15800000.0,8320031.0,train
+283058,N. Jackson,Chelsea,2024,Attacker,23,10,5,2238,29700000.0,37195544.0,train
+283290,K. McAteer,Leicester,2024,Midfielder,22,1,1,851,7700000.0,11232956.0,train
+284230,R. Lewis,Manchester City,2024,Defender,19,1,2,1897,22000000.0,9074515.0,train
+284322,K. Mainoo,Manchester United,2024,Midfielder,19,0,0,1656,8300000.0,9829122.0,train
+284324,A. Garnacho,Manchester United,2024,Attacker,20,6,2,2196,25900000.0,21739810.0,train
+284400,Tobias Christopher Collyer,Manchester United,2024,Midfielder,20,0,0,175,18100000.0,6829614.0,train
+284428,O. Hutchinson,Ipswich,2024,Attacker,20,3,2,2594,29400000.0,22736433.0,train
+284457,L. Bogarde,Aston Villa,2024,Defender,20,0,0,476,4300000.0,6048357.0,train
+284492,L. Hall,Newcastle,2024,Defender,19,0,4,2192,11800000.0,10638699.0,train
+284500,T. Iroegbunam,Everton,2024,Midfielder,21,0,1,563,28300000.0,8981200.0,test
+284797,D. Ouattara,Bournemouth,2024,Attacker,22,7,4,2007,21100000.0,28112133.0,test
+286458,J. Devenny,Crystal Palace,2024,Midfielder,20,1,1,493,4100000.0,8340528.0,test
+286616,F. Jörgensen,Chelsea,2024,Goalkeeper,22,0,0,540,5500000.0,4217184.0,test
+288006,R. Højlund,Manchester United,2024,Attacker,21,4,0,2022,20100000.0,19558576.0,train
+288102,A. Wharton,Crystal Palace,2024,Midfielder,20,0,2,1336,19400000.0,10646405.0,train
+296458,D. Jebbison,Bournemouth,2024,Attacker,21,1,0,180,12900000.0,10106124.0,train
+297640,Roman Dixon,Everton,2024,Defender,19,0,0,90,1900000.0,4589296.0,test
+299813,Ali Al Hamadi,Ipswich,2024,Attacker,22,0,0,144,6500000.0,10051653.0,train
+301771,S. Adingra,Brighton,2024,Attacker,22,2,2,1090,14000000.0,15642915.0,test
+303467,A. Fatawu,Leicester,2024,Attacker,20,0,2,577,11200000.0,10649919.0,train
+304317,T. Dibling,Southampton,2024,Midfielder,18,2,0,1872,8800000.0,9997655.0,train
+304853,A. Scott,Bournemouth,2024,Midfielder,20,0,0,751,7000000.0,8200911.0,train
+305730,J. Hinshelwood,Brighton,2024,Midfielder,19,5,2,1854,21600000.0,13819262.0,train
+307123,N. O&apos;Reilly,Manchester City,2024,Midfielder,19,2,0,527,5300000.0,7655220.0,test
+311334,F. Buonanotte,Leicester,2024,Midfielder,19,5,2,1515,16600000.0,12090740.0,train
+313236,E. Nwaneri,Arsenal,2024,Midfielder,17,4,2,946,8100000.0,7806329.0,train
+313245,M. Lewis-Skelly,Arsenal,2024,Defender,17,1,0,1370,3900000.0,5559958.0,train
+315237,W. Osula,Newcastle,2024,Attacker,20,1,0,168,7000000.0,9505374.0,test
+327730,O. Scarles,West Ham,2024,Defender,18,0,0,662,4200000.0,4965183.0,train
+328089,A. Gray,Tottenham,2024,Midfielder,18,0,0,1746,6800000.0,8655214.0,train
+328101,T. Fredricson,Manchester United,2024,Defender,19,0,0,166,4700000.0,4850390.0,test
+328105,L. Miley,Newcastle,2024,Midfielder,18,1,0,324,9000000.0,5898622.0,train
+328225,B. Gruda,Brighton,2024,Midfielder,20,1,4,698,7900000.0,10231123.0,test
+334037,Tyrique George,Chelsea,2024,Attacker,18,1,1,177,18600000.0,7613233.0,test
+336564,W. Odobert,Tottenham,2024,Attacker,19,1,0,849,7800000.0,9723337.0,train
+336585,Mateus Fernandes,Southampton,2024,Midfielder,20,2,4,2919,16900000.0,21061761.0,train
+340573,B. El Khannouss,Leicester,2024,Midfielder,20,2,3,2194,22700000.0,15207024.0,train
+342022,M. Kayode,Brentford,2024,Defender,20,0,1,527,6000000.0,6391362.0,train
+342320,K. Nedeljković,Aston Villa,2024,Defender,18,0,0,121,4100000.0,4167908.0,train
+342970,L. Yoro,Manchester United,2024,Defender,18,0,0,1169,3700000.0,5798771.0,train
+347316,L. Bergvall,Tottenham,2024,Midfielder,18,0,1,1202,11600000.0,7674799.0,train
+356041,C. Baleba,Brighton,2024,Midfielder,20,3,1,2670,8200000.0,18206774.0,train
+360114,A. Khusanov,Manchester City,2024,Defender,20,0,0,504,5400000.0,6048262.0,train
+361497,D. Huijsen,Bournemouth,2024,Defender,19,3,2,2422,11900000.0,12359301.0,train
+363695,Murillo,Nottingham Forest,2024,Defender,22,2,0,3191,13200000.0,18653439.0,train
+366735,Joshua Kofi Acheampong,Chelsea,2024,Defender,18,0,0,181,5000000.0,4227751.0,train
+380690,M. Moore,Tottenham,2024,Attacker,16,0,1,362,9000000.0,5465263.0,test
+380691,Jay Robinson,Southampton,2024,Attacker,17,0,0,135,2300000.0,5239694.0,test
+382452,P. Dorgu,Manchester United,2024,Defender,19,0,0,842,5000000.0,6022989.0,train
+383685,Y. Minteh,Brighton,2024,Attacker,20,6,4,1855,33200000.0,21561714.0,train
+388013,Andrés García,Aston Villa,2024,Defender,21,0,0,325,5800000.0,6192464.0,train
+389309,O. Martin,Manchester United,2024,Attacker,16,0,0,159,5900000.0,4833851.0,test
+389315,Joshua King,Fulham,2024,Midfielder,17,0,0,145,4400000.0,4400704.0,train
+402329,A. Heaven,Manchester United,2024,Defender,17,0,0,170,3800000.0,3584490.0,train
+402640,R. Esse,Crystal Palace,2024,Midfielder,19,1,1,146,7600000.0,7083878.0,test
+403064,H. Amass,Manchester United,2024,Defender,17,0,0,346,8900000.0,3637821.0,test
+404574,Luis Guilherme,West Ham,2024,Attacker,18,0,0,176,6200000.0,6735409.0,train
+404656,Jahmai Simpson-Pusey,Manchester City,2024,Defender,18,0,0,95,2200000.0,3975046.0,test
+460853,J. Monga,Leicester,2024,Midfielder,15,0,0,118,1400000.0,3110412.0,train

@@ -35,6 +35,7 @@ from .features import (  # noqa: E402
     BASE_FEATURES, CATEGORICAL_FEATURES, MIN_MINUTES_FOR_TRAINING, NUMERIC_FEATURES, POSITIONS, TARGET,
     add_engineered_features,
 )
+from .predictor import LinearValueModel  # noqa: E402
 
 # Wise-inspired palette (matches frontend/src/index.css)
 LIME, INK, INK_DEEP, SAGE, NEGATIVE = "#9fe870", "#0e0f0c", "#163300", "#e8ebe6", "#d03238"
@@ -48,6 +49,31 @@ def build_pipeline() -> Pipeline:
     ])
     model = TransformedTargetRegressor(regressor=LinearRegression(), func=np.log1p, inverse_func=np.expm1)
     return Pipeline([("preprocess", preprocess), ("model", model)])
+
+
+def export_model_spec(pipeline: Pipeline) -> dict:
+    """Flatten the fitted pipeline into plain numbers for sklearn-free serving."""
+    preprocess = pipeline.named_steps["preprocess"]
+    scaler = preprocess.named_transformers_["num"]
+    encoder = preprocess.named_transformers_["cat"]
+    regressor = pipeline.named_steps["model"].regressor_
+
+    categories = list(encoder.categories_[0])
+    dropped = encoder.drop_idx_[0] if encoder.drop_idx_ is not None else None
+    kept = [c for i, c in enumerate(categories) if i != dropped]
+    n_numeric = len(NUMERIC_FEATURES)
+    return {
+        "type": "log1p_linear_regression",
+        "numeric_features": NUMERIC_FEATURES,
+        "scaler_mean": scaler.mean_.tolist(),
+        "scaler_scale": scaler.scale_.tolist(),
+        "categorical_feature": CATEGORICAL_FEATURES[0],
+        "categories": kept,
+        "baseline_category": categories[dropped] if dropped is not None else None,
+        "coef_numeric": regressor.coef_[:n_numeric].tolist(),
+        "coef_categorical": regressor.coef_[n_numeric:].tolist(),
+        "intercept": float(regressor.intercept_),
+    }
 
 
 def load_training_frame() -> tuple[pd.DataFrame, dict]:
@@ -172,6 +198,11 @@ def main() -> None:
     }
 
     joblib.dump(final, config.MODEL_PATH)
+    spec = export_model_spec(final)
+    config.MODEL_SPEC_PATH.write_text(json.dumps(spec, indent=2))
+    # The API serves from model.json, so it must reproduce the sklearn pipeline exactly.
+    if not np.allclose(LinearValueModel(spec).predict(X), final.predict(X), rtol=1e-9):
+        raise RuntimeError("model.json predictions diverge from the sklearn pipeline")
     config.METRICS_PATH.write_text(json.dumps(metrics, indent=2))
     save_plots(preds, coefficients)
 
